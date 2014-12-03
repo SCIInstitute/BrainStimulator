@@ -1,0 +1,86 @@
+[ Objectmap Colors for yale_broadmann_HBM08_10_RL ]
+0 : Background
+1 : L_PrimSensory
+4 : L_PrimMotor
+5 : L_SensoryAssoc
+6 : L_BA6
+7 : L_BA7
+8 : L_BA8
+9 : L_BA9
+10 : L_BA10
+11 : L_BA11
+13 : L_Insula
+14 : L_BA14
+17 : L_PrimVisual
+18 : L_VisualAssoc
+19 : L_BA19
+20 : L_BA20
+21 : L_BA21
+22 : L_BA22
+23 : L_BA23
+24 : L_BA24
+25 : L_BA25
+30 : L_BA30
+31 : L_BA31
+32 : L_BA32
+34 : L_BA34
+36 : L_Parahip
+37 : L_Fusiform
+38 : L_BA38
+39 : L_BA39
+40 : L_BA40
+41 : L_PrimAuditory
+44 : L_BA44
+45 : L_BA45
+46 : L_BA46
+47 : L_BA47
+48:  L_Caudate
+49:  L_Putamen
+50:  L_Thalamus
+51:  L_GlobPal
+52:  L_NucAccumb
+53:  L_Amygdala
+54:  L_Hippocampus
+55:  L_Hypothalamus
+101 : R_PrimSensory
+104 : R_PrimMotor
+105 : R_SensoryAssoc
+106 : R_BA6
+107 : R_BA7
+108 : R_BA8
+109 : R_BA9
+110 : R_BA10
+111 : R_BA11
+113 : R_Insula
+114 : R_BA14
+117 : R_PrimVisual
+118 : R_VisualAssoc
+119 : R_BA19
+120 : R_BA20
+121 : R_BA21
+122 : R_BA22
+123 : R_BA23
+124 : R_BA24
+125 : R_BA25
+130 : R_BA30
+131 : R_BA31
+132 : R_BA32
+134 : R_BA34
+136 : R_Parahip
+137 : R_Fusiform
+138 : R_BA38
+139 : R_BA39
+140 : R_BA40
+141 : R_PrimAuditory
+144 : R_BA44
+145 : R_BA45
+146 : R_BA46
+147 : R_BA47
+148:  R_Caudate
+149:  R_Putamen
+150:  R_Thalamus
+151:  R_GlobPal
+152:  R_NucAccumb
+153:  R_Amygdala
+154:  R_Hippocampus
+155:  R_Hypothalamus
