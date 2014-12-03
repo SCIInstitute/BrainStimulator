@@ -7,3 +7,7 @@ The data folder contains anatomical models and stimulation devices (TMS coils, t
 
 The documentation folder contains tutorials on how to use BrainStimulator in SCIRun5.
 
+Please download the latest version of SCIRun5 as a binary or source code from this link:
+
+## SCIRun 5
+https://github.com/SCIInstitute/SCIRun
