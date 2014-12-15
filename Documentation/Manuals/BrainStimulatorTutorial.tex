@@ -1,7 +1,7 @@
 \documentclass[fleqn,11pt,openany]{book}
 
 % These two need to be set before including scirun style package
-\title{BrainStimulator - A SCIRun5-based Toolkit for Modeling of Transcranial Electromagnetic Stimulation}
+\title{BrainStimulator: A SCIRun5-based Toolkit for Modeling of Transcranial Electromagnetic Stimulation}
 \author{Moritz Dannhauer, Spencer Frisby}
 
 % INCLUDE SCI STYLE DOCUMENT
@@ -32,21 +32,22 @@
 \begin{introduction}
 
 This tutorial demonstrates both non-invasive electrical brain stimulation, known as transcranial direct current stimulation (tDCS), and non-invasive magnetic brain stimulation, known as transcranial magnetic stimulation (TMS), can be
-modeled using SCIRun5. It explains briefly the basics of tDCS and TMS, such as the mathematical fundamentals, how to set up tDCS/TMS simulations, and how to visualize results based on a simple geometric model: a label-mask data set containing multiple spheres forming a mickey mouse head.
-Besides the Mickey Mouse toy model, BrainStimulator contains a realistic human head model that was derrived from the well-known Colin27 brain atlas in flavors of detail. 
+modeled using SCIRun 5. It explains briefly the basics of tDCS and TMS, such as the mathematical fundamentals, how to set up tDCS/TMS simulations,
+and how to visualize results based on a simple geometric Model: a label mask dataset containing multiple spheres forming a Mickey Mouse head.
+Besides the Mickey Mouse Toy Model, BrainStimulator contains a realistic human head model that was derived from the well-known Colin27 brain atlas in various levels of detail. 
 
 \end{introduction}
 
 \section{Transcranial Direct Current Stimulation (tDCS)}
 
-Transcranial direct current stimulation (tDCS) is a non-invasive technique that effects human brain functions.
-It is an emerging therapeutic approach to support the treatment of a wide range of neurological conditions, such as mood disorders, and is also known to enhance cognitive functions such as memory and motor skill learning.
-tDCS aims to modulate specific regions of the brain by injecting low amplitude direct current through surface electrodes attached to the scalp of the subject.
+Transcranial direct current stimulation (tDCS) is a non-invasive technique that affects human brain functions.
+It is an emerging therapeutic approach to support the treatment of a wide range of neurological conditions such as mood disorders, and is also known to enhance cognitive functions such as memory and motor skill learning.
+tDCS aims to modulate specific regions of the brain by injecting low-amplitude direct current through surface electrodes attached to the scalp of the subject.
 
 \subsection{Mathematical Modeling of tDCS}
 
-For the purpose of computing a tDCS forward solution, the following equation system has to be solved: $M \cdot U = I$, where $M$ is the tDCS forward Matrix (module: BuildTDCSMatrix) and $U$ is the solution potential vector given the injected current vector, the right hand side $I$
-(module: SetupTDCS). $M$ combines volume conduction properties (FEM stiffness matrix, module: BuildFEMatrix) and electrical boundary conditions (module: SetupTDCS), including the complete electrode model to simulate current injection
+For the purpose of computing a tDCS forward solution, the following equation system has to be solved: $M \cdot U = I$, where $M$ is the tDCS forward matrix (module \textbf{BuildTDCSMatrix}) and $U$ is the solution potential vector given the injected current vector, the right-hand side $I$
+(module \textbf{SetupTDCS}). $M$ combines volume conduction properties (FEM stiffness matrix, module \textbf{BuildFEMatrix}) and electrical boundary conditions (module \textbf{SetupTDCS}), including the complete electrode model to simulate current injection
 that solves the Poisson equation:
 
 \begin{center}
@@ -63,7 +64,7 @@ that solves the Poisson equation:
 
 In more detail, $M$ is composed of the regular FEM stiffness ($A \in N \times N$, with $N$ representing the number of FEM nodes) and additional electrical boundary conditions specified as submatrices $A_{2}$,
 $B$, $C$ ($B \in N \times L$, $C \in L \times L$, with $L$ representing the number of electrodes).
-$M$ is composed such as: \\
+$M$ is composed as: \\
 
 \begin{eqnarray}
 M &=& \left( \begin{array}{cc}
@@ -95,23 +96,23 @@ B(i,l) &=& \frac{1}{z_{l}} \int_{e_l} \phi_{i}\ d\Omega_{el}
 C(i,l) &=& \frac{1}{z_{l}} \int_{e_l}\ d\Omega_{el}, \nonumber \\ \nonumber \\
 \end{eqnarray}
 
-Here, the donations are: $M \in \mathbb{R}^{N+L \times N+L}$, $A_{1},A_{2} \in \mathbb{R}^{N \times N}$, $B \in \mathbb{R}^{N \times L}$, $C \in \mathbb{R}^{L \times L}$, $U_n$ potentials at nodes, $U_e$ represents potentials at electrodes, $I_{e}$ is currents at electrodes and $\phi$ denotes linear basis functions. \\
+Here, the donations are $M \in \mathbb{R}^{N+L \times N+L}$; $A_{1},A_{2} \in \mathbb{R}^{N \times N}$; $B \in \mathbb{R}^{N \times L}$; $C \in \mathbb{R}^{L \times L}$; $U_n$ potentials at nodes; $U_e$ represents potentials at electrodes; $I_{e}$ is currents at electrodes and $\phi$ denotes linear basis functions. \\
 
-The posed mixed electrical boundary problem can be efficiently solved with SCIRun5 modules (see more below).
-The implemented complete electrode model enables us to model a non-uniform current distribution across the surface of the electrodes. It also allows adjustments to be made for the electrode-scalp contact relationship using a resistive electrode impedance $z_{l}$, which is often available in experimental settings.
+The boundary problem formulation (complete electrode model) above can be efficiently solved with SCIRun 5 modules (see more below).
+That complete electrode model describes the non-uniform current distribution across the surface of the electrodes. It also allows adjustments to be made for the electrode-scalp contact relationship using a resistive electrode impedance $z_{l}$, which is often available in experimental settings.
 
 \section{Transcranial Magnetic Stimulation (TMS)}
 
-Transcranial Magnetic stimulation (TMS) is a non-invasive technique that influences human brain function. TMS is an FDA-approved tool used in basic and clinical neuroscience.
+Transcranial Magnetic Stimulation (TMS) is a non-invasive technique that influences human brain function. TMS is an FDA-approved tool used in basic and clinical neuroscience.
 A TMS coil can be freely positioned close to the scalp by the experimenter (often guided by a navigation system) to target a specific brain region of interest (ROI).
 
 \subsection{Mathematical Modeling  of TMS}
 
-Modeling TMS involves the computation of magnetic fields generated by the TMS coil for a particular ROIs (e.g. biological brain tissues).
-The magnetic field originating at the TMS coil can sufficiently be approximated by a number of magnetic dipoles. Those magnetic dipoles describe the magnetic field
-that the coil is emitting and depend on shape and other technical specifications of the coil. Typical shapes of TMS coils can consist of a single or a double-ring
-coil. Each subcoil of the most common double-ring coil (8-shaped coil) is wound in opposite direction, which focuses the stimulation at the mid-point of the entire
-TMS coil. To compute the electrical current density $J$ that is induced by the TMS coil the following equation needs to be solved:
+Modeling TMS involves the computation of magnetic fields generated by the TMS coil for a particular ROIs (e.g., biological brain tissues).
+The magnetic field originating at the TMS coil can be sufficiently approximated by a number of magnetic dipoles. The magnetic dipoles describe the magnetic field
+that the coil is emitting and depend on shape and other technical specifications of the coil. Typical shapes of TMS coils can consist of a single- or a double-ring
+coil. Each subcoil of the most common double-ring coil (8-shaped coil) is wound in the opposite direction, which focuses the stimulation at the mid-point of the entire
+TMS coil. To compute the electrical current density $J$ that is induced by the TMS coil, the following equation needs to be solved:
 
 \begin{center}
 	\begin{eqnarray*}
@@ -119,154 +120,164 @@ TMS coil. To compute the electrical current density $J$ that is induced by the T
 	\end{eqnarray*}
 \end{center}
 
-with $\nabla{\phi}$ being the gradient of the electrical potential ($\phi$) and $\frac{dA}{dt}$ being the time derivative of the magnetic vector potential generated by the coil both being multiplied
-by $-\ \sigma$, the electrical conductivity tensor. Firstly, the magnetic vector potential (module: SimulateForwardMagneticField) is computed at each node location of the ROI mesh. For each of these node locations, a mean conductivity tensor ($\bar{\sigma}$) of the surrounding
+with $\nabla{\phi}$ being the gradient of the electrical potential ($\phi$) and $\frac{dA}{dt}$ being the time derivative of the magnetic vector
+potential generated by the coil, with both being multiplied
+by $-\ \sigma$, the electrical conductivity tensor. Firstly, the magnetic vector potential (module \textbf{SimulateForwardMagneticField}) is computed at each node location of the ROI mesh. For each of these node locations, a mean conductivity tensor ($\bar{\sigma}$) of the surrounding
 mesh elements is computed and multiplied by the magnetic vector potential.
-The result can be seen as a \textit{primary current} ($J = \sigma \cdot A$, here: assumed to be constant for the considered time interval) induced at the ROI node location.
-This primary current depends solely on the position, orientation and magnetic field profile of the TMS coil for a given conductivity distribution in the ROI.
-Secondly, the induced primary currents ($J$) modeled as electrical boundary (volumetric source,module: BuildVolRHS) conditions, \textit{secondary currents} can also be computed with SCIRun.The
-computation of secondary currents by solving the FEM problem is rather time consuming and experiments showed that its impact is small (compared to primary currents) on the current density $J$. 
-In this tutorial, both, primary and secondary current contributions are computed.
+The result can be seen as a \textit{primary current} ($J = \sigma \cdot A$, here: assumed to be constant for the time interval considered) induced at the ROI node location.
+This primary current depends solely on the position, orientation, and magnetic field profile of the TMS coil for a given conductivity distribution in the ROI.
+Secondly, the induced primary currents ($J$) modeled as electrical boundary (volumetric source, module \textbf{BuildVolRHS}) conditions. \textit{Secondary currents} can also be computed with SCIRun. The
+computation of secondary currents by solving the FEM problem is rather time consuming and computer simulations have shown that its impact is rather small (compared to primary currents) on the current density $J$. 
+In this tutorial both primary and secondary current contributions are computed.
 
 \chapter{Software requirements}
 
 \section*{SCIRun Compability} 
 
+%% TODO: update for SCIRun 5
 The modules demonstrated in this tutorial are available in SCIRun version 5.0 and are not compatible with any older version of SCIRun.
-Be sure to update your SCIRun version to the latest build available from the \href{http://www.scirun.org}{SCIRun website}, which will include the latest bug fixes and will make sure that the capabilities demonstrated in this tutorial are up to date.
+Please download the latest SCIRun5 release. Please follow up on the SCIRun5 requirements posted on our website \href{http://www.scirun.org}{SCIRun website}.
+All models provided with BrainStimulator have different resolutions and therefore different memory and computing requirements.
+The Mickey Mouse Toy Model was designed to run on computers with limited computional capabilities (4 GB of RAM, 2 GHz Processors).
+Computationally more demanding models (e.g., Colin27 model) should be processed on multicore processor maschines having at least 16 GB of
+memory (RAM). 
+%Be sure to update your SCIRun version to the latest build available from the \href{http://www.scirun.org}{SCIRun website}, which will include the latest bug fixes and will make sure that the capabilities demonstrated in this tutorial are up to date.
 
 \section*{Required Datasets} 
 
-This tutorial relies on several datasets that are all part of the SCIRunData bundle.
-To obtain these datasets, go to the \href{http://www.scirun.org}{SCIRun website} and click the \textbf{Download} button.
-Instead of the SCIRun source or binary files, download the SCIRunData archive files.
-The latter is available as a zip file or as a gzip file. 
+In order to perform non-invasive brain stimultion simulations with SCIRun5/BrainStimulator
+please download also the zipped data file containing data for BrainStimulator.
+
+%% TODO: update for new BrainStimulator repo
+%This tutorial relies on several datasets that are all part of the SCIRunData bundle.
+%To obtain these datasets, go to the \href{http://www.scirun.org}{SCIRun website} and click the \textbf{Download} button.
+%Instead of the SCIRun source or binary files, download the SCIRunData archive files.
+%The latter is available as a zip file or as a gzip file. 
 
 \chapter{Finite Element Modeling}
 
-We used a standard approach to solve finite element problems for tDCS (for details
+We used a standard approach to solve finite element problems for tDCS (for details, 
 \href{http://www.sci.utah.edu/devbuilds/scirun_docs/DefibrillationTutorial.pdf}{review the Defibrillation tutorial}, chapter 2).
-For TMS, an established forward modeling approach is employed (Thielscher et. al, 2004,Clinical Neurophysiology and later publications, www.simnibs.de).
+For TMS, an established forward modeling approach was implemented (Thielscher et al., 2004, Clinical Neurophysiology and later publications, www.simnibs.de).
 
 \section{Preparation of Finite Element Model}
 
-The finite element mesh (file name: mesh.mat) was generated using our meshing package
-(\href{http://www.sci.utah.edu/cibc-software/cleaver-cibc.html}{Cleaver}) based on the label mask file (file name: mickey4tDCS.nrrd).
-The file mickey4tDCS.nrrd consists of the labels background, mickey's body, right ear, left ear, two tDCS target regions that have distinct label mask values 1, 2, 3, 4, 5, 6.
-It is used as a geometrical basis for tDCS and TMS. Any meshes used for simulations are generated within SCIRun5.
+The finite element mesh (file \textbf{mesh.mat}) was generated using the meshing package
+(\href{http://www.sci.utah.edu/cibc-software/cleaver-cibc.html}{Cleaver}) based on the label mask file (file \textbf{mickey4tDCS.nrrd}).
+The file \textbf{mickey4tDCS.nrrd} consists of the labels background; Mickey's body; right ear; left ear and two target regions for stimulation that have distinct label mask values 1, 2, 3, 4, 5, 6.
+It is used as a geometrical basis for tDCS and TMS. Any meshes used for simulations are generated within SCIRun 5.
 
-\subsection{Tissue segmentation: Mickey Mouse toy model}
-The simulation setup of the tDCS mickey mouse example 6 sites to place electrodes can be identified, which are parallel to the axis.
-There are two target regions usable for tDCS and TMS, one located superficially and one deeply inside Mickey's head \ref{fig:sim_setting}.
+\subsection{Tissue segmentation: Mickey Mouse Toy Model}
+The simulation setup of the tDCS Mickey Mouse example identifies 6 sites to place electrodes, which are parallel to the x-, y- and z-axis.
+There are two target regions usable for tDCS and TMS, one located superficially and one deeply inside Mickey's head (figure \ref{fig:sim_setting}).
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.4\textwidth]{BrainStimulation_figures/mickey_mouse_seg.png}
-\caption{ Toy example - Mickey mouse segmentation (depicted tissue labels: red/light brown=left/right ear, light blue=body, dark blue/green=deep/superficial ROI) }
+\caption{ Toy example: Mickey Mouse segmentation (depicted tissue labels are red/light brown=left/right ear, light blue=body, dark blue/green=deep/superficial ROI) }
 \label{fig:sim_setting}
 \end{figure}
 
 \newpage
 
-\subsection{Generating finite element meshed (FEM) within SCIRun5 from segmentations}
-The SCIRun5 network shown in \ref{fig:mesh1} implements a way to generate a tehtrahedral mesh based on a segmentation (*.nrrd file) that need to be loaded so that the data elements
-are defined on the elements. The loaded field will be separated based on the label values (1..6) and for each a triangle surface is generated.
-To create a valid input for the meshing tool cleaver 1.0 (module: InterfaceToCleaver) all triangle surfaces need to be represented implicitly as indicator functions.
-Those indicator functions can be defined as signed distances to the surfaces of the materials. The creation of signed distance fields requires a regular grid where the signed distances are stored.
-That grid (module "CreateLatVol") is created in the top part of this network and aligned with the segmentation (module "AlignMeshBoundingBoxes") as well.
+\subsection{Generating Finite Element Mesh (FEM) in SCIRun 5 from segmentations}
+The SCIRun 5 network shown in figure \ref{fig:mesh1} implements a way to generate a tetrahedral mesh based on a segmentation (\textbf{*.nrrd} file) that needs to be loaded so that the data elements
+are defined on the elements. The loaded field will be separated based on the label values (1 through 6) and for each a triangle surface is generated.
+To create a valid input for the meshing tool Cleaver 1.0 (module \textbf{InterfaceToCleaver}), all triangle surfaces need to be represented implicitly as indicator functions.
+These indicator functions can be defined as signed distances to the surfaces of the materials. The creation of signed distance fields requires a regular grid where the signed distances are stored.
+The grid (module \textbf{CreateLatVol}) is created in the top part of this network and aligned with the segmentation (module \textbf{AlignMeshBoundingBoxes}) as well.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=1.0\textwidth]{BrainStimulation_figures/make_mesh1.png}
-\caption{ Mickey mouse segmentation: Tetrahedral mesh generation, SCIRun5 network (1/2) }
+\caption{ Mickey Mouse segmentation: Tetrahedral mesh generation, SCIRun 5 network (1/2) }
 \label{fig:mesh1}
 \end{figure}
 
-The second part of the network (\ref{fig:mesh2}) takes all tissue surfaces and the regular grid (latvol) to compute signed distances that will serve as indicator functions.
-Each output (signed distance field) piped into a CalculateFieldData module to be converted to float. All signed distance fields are piped into Cleaver (Cleaver expects to have positive 
-signed distance values inside and negative values outside of it, for each material (also background) a positive distance value needs to be defined in one input).
+The second part of the network (figure \ref{fig:mesh2}) takes all tissue surfaces and the regular grid (LatVol) to compute signed distances that will serve as indicator functions.
+Each output (signed distance field) is piped into a \textbf{CalculateFieldData} module to be converted to float numbers (from double). All signed distance fields are piped into Cleaver. Cleaver expects to have positive signed distance values inside and negative values outside. For each material (also background), a positive distance value needs to be defined in one input.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/make_mesh2.png}
-\caption{ Mickey mouse segmentation: Tetrahedral mesh generation, SCIRun5 network (2/2)}
+\caption{ Mickey Mouse segmentation: Tetrahedral mesh generation, SCIRun 5 network (2/2)}
 \label{fig:mesh2}
 \end{figure}
 
 
 \section{Simulating Transcranial Direct Current Stimulation (tDCS)}\label{sec:sim_tdcs}
-The SCIRun5 network discussed in the following can be found at \texttt{src/ExampleNets/BrainStimulator/TDCS\_TOY\_EXAMPLE.srn5}.
+The SCIRun 5 network discussed in the following sections can be found at \\ \texttt{src/ExampleNets/BrainStimulator/TDCS\_TOY\_EXAMPLE.srn5}.
 
-\subsection{SCIRun5 tDCS network: Part 1/5}
-The only difference of figure \ref{fig:tdcs1} to figure \ref{fig:mesh1} are the 2 modules in the top right corner. One creates a matrix of electrode locations (x, y, z) and
-the other one reads the shape of a tDCS electrode prototype.
+\subsection{SCIRun 5 tDCS network}
+The only difference between figure \ref{fig:tdcs1} and figure \ref{fig:mesh1} is the presence of two more modules in the top right corner. One module creates a matrix of electrode locations (x, y, z) and
+the other reads the shape of a tDCS electrode prototype.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tdcs_1.png}
-\caption{ tDCS SCIRun5 network (1/5)}
+\caption{ tDCS SCIRun 5 network (1/5)}
 \label{fig:tdcs1}
 \end{figure}
 
-In figure \ref{fig:tdcs2}, the module ElectrodeCoilSetup is highlighted which positions each electrode on the scalp and generates a Field of definied electrode 
-shapes that fit the scalp surface and can be used later to create a signed distance field for the electrodes (as an input for Cleaver). 
+In figure \ref{fig:tdcs2}, the module \textbf{ElectrodeCoilSetup} highlights the position of each electrode on the scalp and generates a field of definied electrode 
+shapes that fit the scalp surface and can be used later to create a signed distance field for the electrodes (Cleaver input). 
 
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tdcs_2.png}
-\caption{ tDCS SCIRun5 network (2/5)}
+\caption{ tDCS SCIRun 5 network (2/5)}
 \label{fig:tdcs2}
 \end{figure}
 
-Figure \ref{fig:tdcs3} demonstrates this process of the model mesh generation is performed by the InterfaceWithCleaver module that takes all tissues as well as
+Figure \ref{fig:tdcs3} demonstrates how this process of the model mesh generation is performed by the \textbf{InterfaceWithCleaver} module that takes all tissues as well as
 the electrode inputs (signed distance fields) and outputs a tetrahedral mesh. This tetrahedral mesh is split into labels whereas the background,
 which is not needed for computations, is stripped. The scalp and electrode tissue surfaces are created to set up FEM computations.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tdcs_3.png}
-\caption{ tDCS SCIRun5 network (3/5)}
-\label{fig:tdcs2}
+\caption{ tDCS SCIRun 5 network (3/5)}
+\label{fig:tdcs3}
 \end{figure}
 
-In figure \ref{fig:tdcs4} presents the computation core of the network. The created tetraherdral mesh is populated with
-isotropic conductivity values from the SetMeshConductivities module (user input possible to change conductivities) and piped directly into the BuildFEMatrix module
-to generate the FEM stiffness matrix $A_{1}$. The module SetupTDCS takes all the information on the tDCS electrode definition and creates
+Figure \ref{fig:tdcs4} presents the computational core of the network. The resulting tetrahedral mesh is populated with
+isotropic conductivity values from the \textbf{SetMeshConductivities} module (user input possible to change conductivities) and piped directly into the \textbf{BuildFEMatrix} module
+to generate the FEM stiffness matrix $A_{1}$. The module \textbf{SetupTDC}S takes all the information on the tDCS electrode definition and creates
 outputs to be able to set appropriate electrical boundary conditions (user input possible to define electrode current intensities and reference node).
-Those outputs are piped mainly into the module BuildTDCSMatrix to create the TDCS forward matrix $A$. $A$ and $I$ (SetupTDCS) are piped into SolveLinearSystem
+These outputs are piped mainly into the module \textbf{BuildTDCSMatrix} to create the TDCS forward matrix $A$. $A$ and $I$ (\textbf{SetupTDCS}) are piped into \textbf{SolveLinearSystem}
 to solve $A\ \cdot\ U\ =\ I$ iteratively for the potential vector $U$.
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tdcs_4.png}
-\caption{ tDCS SCIRun5 network (4/5)}
-\label{fig:tdcs2}
+\caption{ tDCS SCIRun 5 network (4/5)}
+\label{fig:tdcs4}
 \end{figure}
 
 
-The computed solution $U$ is split into the nodal potential vector $U_n$ that is only needed for further computations (figure \ref{fig:tdcs5}).
-Then, the nodal potentials are assined to the previously generated tetrahedral mesh and mapped onto a triangle surface (here Mickey's body) for inspection.
-The mapped potentials defined on Mickey's body surface are mapped to its nodes in order to be visualized in ViewScene.
+The computed solution $U$ is split into the node potential vector $U_n$, which is only needed for further computations (figure \ref{fig:tdcs5}).
+Then, the node potentials are assigned to the previously generated tetrahedral mesh and mapped onto a triangle surface (Mickey's body) for inspection.
+The mapped potentials defined on Mickey's body surface are mapped to its nodes in order to be visualized in \textbf{ViewScene}.
 
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tdcs_5.png}
-\caption{ tDCS SCIRun5 network (5/5)}
+\caption{ tDCS SCIRun 5 network (5/5)}
 \label{fig:tdcs5}
 \end{figure}
 
 \section{Simulating Transcranial Magnetic Stimulation (TMS)}\label{sec:sim_tms}
-The SCIRun5 network discussed in the following can be found at \texttt{src/ExampleNets/BrainStimulator/TMS\_TOY\_EXAMPLE.srn5}.
-As previously described, the tetrahedral mesh is created in a similar fashion from the segmentation.
-In figure \ref{fig:tms1}, the TMS coil location is defined and the tms coil prototype is loaded. The magnetically induced primary current
-is computed and a finite element mesh is set up. The primary current is fed into the BuildFEVolRHS to set up the volumetric primary currents (right hand side)
+The SCIRun 5 network discussed in the following section can be found at \\ \texttt{src/ExampleNets/BrainStimulator/TMS\_TOY\_EXAMPLE.srn5}.
+As previously described, the tetrahedral mesh is created in a similar fashion.
+In figure \ref{fig:tms1}, the TMS coil location is defined and the TMS coil prototype is loaded. The magnetically induced primary current
+is computed and a finite element mesh is set up. The primary current is fed into the \textbf{BuildFEVolRHS} to set up the volumetric primary currents (right-hand side)
 to solve for the secondary currents.
 
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tms1.png}
-\caption{ TMS SCIRun5 network (1/4)}
+\caption{ TMS SCIRun 5 network (1/4)}
 \label{fig:tms1}
 \end{figure}
 
@@ -275,7 +286,7 @@ In figure \ref{fig:tms2}, the secondary currents are solved and electrical gradi
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tms2.png}
-\caption{ RMS SCIRun5 network (2/4)}
+\caption{ TMS SCIRun 5 network (2/4)}
 \label{fig:tms2}
 \end{figure}
 
@@ -284,17 +295,17 @@ In figure \ref{fig:tms3}, primary and secondary currents are joined and mapped t
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tms3.png}
-\caption{ RMS SCIRun5 network (3/4)}
+\caption{ TMS SCIRun 5 network (3/4)}
 \label{fig:tms3}
 \end{figure}
 
-In figure \ref{fig:tms4}, the currents are mapped to Mickey's body and ROI based analysis can be performed.
+In figure \ref{fig:tms4}, the currents are mapped to Mickey's body and ROI-based analysis can be performed.
 
 
  \begin{figure}[!h]
 \centering
 \includegraphics[width=0.8\textwidth]{BrainStimulation_figures/tms4.png}
-\caption{ RMS SCIRun5 network (4/4)}
+\caption{ TMS SCIRun 5 network (4/4)}
 \label{fig:tms4}
 \end{figure}
 
@@ -302,21 +313,29 @@ In figure \ref{fig:tms4}, the currents are mapped to Mickey's body and ROI based
 
 \section{Modules}
 
-Modules are the workhorses of SCIRun. Below is given a brief description of the modules used in this tutorial. To obtain a complete understanding for each module visit \href{http://www.sci.utah.edu/software/scirun.html}{SCIRun documentation}.
+Modules are the workhorses of SCIRun. Below is a brief description of the modules used in this tutorial. To obtain a complete understanding of each module, visit \href{http://www.sci.utah.edu/software/scirun.html}{SCIRun documentation}.
 
 \subsection{ElectrodeCoilSetup}
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\imgSm\textwidth]{BrainStimulation_figures/ElectrodeCoilSetup.png}
-	\includegraphics[width=0.95\textwidth]{BrainStimulation_figures/ElectrodeCoilSetup_GUI.png}
+	\includegraphics[width=0.8\textwidth]{BrainStimulation_figures/ElectrodeCoilSetup_GUI.png}
 	\caption{Electrode / coil setup module allows for electrode or magnetic coils properties to be manually inputed, such as the height, width, and length.}
 	\label{fig:elec_coil_setup}
 \end{figure}
 
- 
+\textbf{ElectrodeCoilSetup} is designed to position tDCS electrodes and TMS coils prototypes to their final positions. A tDCS electrode protoype is a triangular mesh
+of any shape that is symetrically positioned at the origin of the coordinate system. A tDCS electrode prototype can be created e.g., using CreateLatVol.
+A TMS coil prototype consists of a point cloud of magnetic dipole positions. For each magnetic dipole position a vector is stored defining
+its contribution to the magnetic output of the coil. The module translates and rotates all defined TMS coils to their final positions and rotates them
+as provided by User input (GUI). In a similar way, tDCS electrode sponges can be moved to their final destinations. Furthermore, at their final destinations
+tDCS electrode can be mapped onto the scalp that was provided. This modules has to be excuted once to make the inputs available in the GUI.
+After input of GUI information a second output will generate useful output. 
+Hint: In the case that an tDCS electrode sponge has been attached to the scalp from the head inside the user can invert the normal definition (multiplying Nx,Ny,Nz
+by -1) and generate a tDCS electrode sponge on the scalp surface after reexecution of the module. 
 
 \subsection{SetupTDCS}
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\imgSm\textwidth]{BrainStimulation_figures/SetupTDCS.png}
 	\includegraphics[width=0.8\textwidth]{BrainStimulation_figures/SetupTDCS_GUI.png}
@@ -324,8 +343,16 @@ Modules are the workhorses of SCIRun. Below is given a brief description of the 
 	\label{fig:setup_rhs}
 \end{figure}
 
+\textbf{SetupTDCS} gets information (module input) on which triangle elements are part of the tDCS electrode sponge. It uses these information to
+determine the top part of the electrode sponges. Once the electrode sponge tops are determined it creates outputs to be fed into the module
+\textbf{BuildTDCSMatrix} that creates the tDCS forward Matrix $M$. In the module GUI, the user need to specify a ground potential on a node somewhere in
+the tetrahedral input mesh (first module input). That mesh node should be far away from the current injection sites and the ROI (preferentially its on the bottom
+of the head model). For each defined electrode (sponge) the user can define a current intensity (in milli Amphere [$mA$]) and a real impedance ([$Ohm * m^2$]) 
+in the GUI. After the first execution of the module the GUI is adjusted based on the outputs. There GUI options to control the size of the electrode sponge top
+(elc. normal criteria) and minimal distance to find points in the input mesh (first input).
+
 \subsection{GenerateROIStatistics}
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\imgSm\textwidth]{BrainStimulation_figures/generateroistatistics.png}
 	\includegraphics[width=0.8\textwidth]{BrainStimulation_figures/generateroistatistics_GUI.png}
@@ -333,13 +360,21 @@ Modules are the workhorses of SCIRun. Below is given a brief description of the 
 	\label{fig:gen_roi_statistics}
 \end{figure}
 
+\textbf{GenerateROIStatistics} creates descriptive statistics (average, minimum, maximum, standard deviation) from brain stimulation simulations 
+(here tDCS and TMS). It is meant to work in conjunction with predefined atlases where each mesh element is assigned to one material or anatomical
+regions. After distinct anatomical regions are determined (from the atlas) statistics values (see above) are computed (from the actual simulation input) 
+and presented in the GUI table. The values of the GUI table are piped to the only output of the module as a dense matrix. 
+
 \subsection{SetMeshConductivities}
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\imgSm\textwidth]{BrainStimulation_figures/SetMeshConductivities.png}
 	\includegraphics[width=\imgSm\textwidth]{BrainStimulation_figures/SetMeshConductivities_GUI.png}
 	\caption{This module allows you to set conductivity values for different fields contained within the mesh. The fields that are available for changing are: skin, soft skull bone, hard skull bone, cerebral spinal fluid, brain gray matter, brain white matter, electrode sponge, and internal air.}
 	\label{fig:set_conductivities_tet_mesh}
 \end{figure}
+
+\textbf{SetMeshConductivities} provides simple GUI options to assign electrical isotropic conductivities to the tetrahedral meshes (labels: 1,2,..8) for 
+typical head tissues known to have very distinct electrical properties.
 
 \end{document}
