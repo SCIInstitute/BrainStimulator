@@ -1,7 +1,7 @@
 BrainStimulator
 ===============
 
-BrainStimulator is a software package to simulate (transcranial) brain stimulation and is implemented in the scientific problem solving environment that SCIRun offers (version > 5.0). 
+BrainStimulator is a software package to simulate (transcranial) brain stimulation and is implemented in SCIRun's (version > 5.0) scientific problem solving environment. 
 
 The data folder contains anatomical models and stimulation devices (TMS coils, tDCS electrode prototypes).
 
