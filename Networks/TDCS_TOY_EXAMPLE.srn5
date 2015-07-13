@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!DOCTYPE boost_serialization>
-<boost_serialization signature="serialization::archive" version="10">
-<networkFile class_id="0" tracking_level="0" version="2">
+<boost_serialization signature="serialization::archive" version="12">
+<networkFile class_id="0" tracking_level="0" version="3">
 	<networkInfo class_id="1" tracking_level="0" version="0">
 		<modules class_id="2" tracking_level="0" version="0">
-			<count>48</count>
+			<count>49</count>
 			<item_version>0</item_version>
 			<item class_id="3" tracking_level="0" version="0">
 				<first>AddKnownsToLinearSystem:58</first>
@@ -546,7 +546,7 @@
 									<name>PadPercent</name>
 									<value>
 										<which>1</which>
-										<value>0</value>
+										<value>0.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -591,7 +591,7 @@
 				</second>
 			</item>
 			<item>
-				<first>CreateStandardColorMap:74</first>
+				<first>CreateStandardColorMap:76</first>
 				<second>
 					<module>
 						<package_name_>SCIRun</package_name_>
@@ -600,8 +600,20 @@
 					</module>
 					<state>
 						<stateMap>
-							<count>1</count>
+							<count>4</count>
 							<item_version>0</item_version>
+							<item>
+								<first>
+									<name>ColorMapInvert</name>
+								</first>
+								<second>
+									<name>ColorMapInvert</name>
+									<value>
+										<which>3</which>
+										<value>0</value>
+									</value>
+								</second>
+							</item>
 							<item>
 								<first>
 									<name>ColorMapName</name>
@@ -611,6 +623,30 @@
 									<value>
 										<which>2</which>
 										<value>Rainbow</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>ColorMapResolution</name>
+								</first>
+								<second>
+									<name>ColorMapResolution</name>
+									<value>
+										<which>0</which>
+										<value>256</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>ColorMapShift</name>
+								</first>
+								<second>
+									<name>ColorMapShift</name>
+									<value>
+										<which>1</which>
+										<value>0.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -834,7 +870,7 @@
 									<name>VolumeScalingSpinBox_X</name>
 									<value>
 										<which>1</which>
-										<value>1</value>
+										<value>1.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -846,7 +882,7 @@
 									<name>VolumeScalingSpinBox_Y</name>
 									<value>
 										<which>1</which>
-										<value>1</value>
+										<value>1.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -858,7 +894,7 @@
 									<name>VolumeScalingSpinBox_Z</name>
 									<value>
 										<which>1</which>
-										<value>1</value>
+										<value>1.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -946,7 +982,7 @@
 									<name>tolerance</name>
 									<value>
 										<which>1</which>
-										<value>9.9999999999999995e-07</value>
+										<value>9.99999999999999955e-07</value>
 									</value>
 								</second>
 							</item>
@@ -1002,7 +1038,7 @@
 									<name>DefaultValue</name>
 									<value>
 										<which>1</which>
-										<value>0</value>
+										<value>0.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1026,7 +1062,7 @@
 									<name>MaxDistance</name>
 									<value>
 										<which>1</which>
-										<value>2</value>
+										<value>2.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1107,6 +1143,70 @@
 									<value>
 										<which>2</which>
 										<value>%SCIRUNDATADIR%/Data/Anatomical_Models/MickeyMouseToyModel/mickey_elc_points.mat</value>
+									</value>
+								</second>
+							</item>
+						</stateMap>
+					</state>
+				</second>
+			</item>
+			<item>
+				<first>RescaleColorMap:1</first>
+				<second>
+					<module>
+						<package_name_>SCIRun</package_name_>
+						<category_name_>Visualization</category_name_>
+						<module_name_>RescaleColorMap</module_name_>
+					</module>
+					<state>
+						<stateMap>
+							<count>4</count>
+							<item_version>0</item_version>
+							<item>
+								<first>
+									<name>AutoScale</name>
+								</first>
+								<second>
+									<name>AutoScale</name>
+									<value>
+										<which>0</which>
+										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>FixedMax</name>
+								</first>
+								<second>
+									<name>FixedMax</name>
+									<value>
+										<which>1</which>
+										<value>9.86186394761491135e-06</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>FixedMin</name>
+								</first>
+								<second>
+									<name>FixedMin</name>
+									<value>
+										<which>1</which>
+										<value>-1.07170043442517523e-05</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>Symmetric</name>
+								</first>
+								<second>
+									<name>Symmetric</name>
+									<value>
+										<which>3</which>
+										<value>0</value>
 									</value>
 								</second>
 							</item>
@@ -1222,7 +1322,7 @@
 									<name>CSF</name>
 									<value>
 										<which>1</which>
-										<value>4</value>
+										<value>4.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1234,7 +1334,7 @@
 									<name>Electrode</name>
 									<value>
 										<which>1</which>
-										<value>7</value>
+										<value>7.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1246,7 +1346,7 @@
 									<name>GM</name>
 									<value>
 										<which>1</which>
-										<value>5</value>
+										<value>5.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1258,7 +1358,7 @@
 									<name>HardBone</name>
 									<value>
 										<which>1</which>
-										<value>3</value>
+										<value>3.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1270,7 +1370,7 @@
 									<name>InternalAir</name>
 									<value>
 										<which>1</which>
-										<value>8</value>
+										<value>8.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1282,7 +1382,7 @@
 									<name>Skin</name>
 									<value>
 										<which>1</which>
-										<value>1</value>
+										<value>1.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1294,7 +1394,7 @@
 									<name>SoftBone</name>
 									<value>
 										<which>1</which>
-										<value>2</value>
+										<value>2.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1306,7 +1406,7 @@
 									<name>WM</name>
 									<value>
 										<which>1</which>
-										<value>6</value>
+										<value>6.00000000000000000e+00</value>
 									</value>
 								</second>
 							</item>
@@ -1352,7 +1452,7 @@
 					</module>
 					<state>
 						<stateMap>
-							<count>6</count>
+							<count>7</count>
 							<item_version>0</item_version>
 							<item>
 								<first>
@@ -1369,42 +1469,42 @@
 												<name>elc0</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>1.00000000000000000e+00</value>
 												</value>
 											</item>
 											<item>
 												<name>elc1</name>
 												<value>
 													<which>1</which>
-													<value>-1</value>
+													<value>-1.00000000000000000e+00</value>
 												</value>
 											</item>
 											<item>
 												<name>elc2</name>
 												<value>
 													<which>1</which>
-													<value>0</value>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</item>
 											<item>
 												<name>elc3</name>
 												<value>
 													<which>1</which>
-													<value>0</value>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</item>
 											<item>
 												<name>elc4</name>
 												<value>
 													<which>1</which>
-													<value>0</value>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</item>
 											<item>
 												<name>elc5</name>
 												<value>
 													<which>1</which>
-													<value>0</value>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</item>
 										</value>
@@ -1426,42 +1526,99 @@
 												<name>imp_elc0</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
 												</value>
 											</item>
 											<item>
 												<name>imp_elc1</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
 												</value>
 											</item>
 											<item>
 												<name>imp_elc2</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
 												</value>
 											</item>
 											<item>
 												<name>imp_elc3</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
 												</value>
 											</item>
 											<item>
 												<name>imp_elc4</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
 												</value>
 											</item>
 											<item>
 												<name>imp_elc5</name>
 												<value>
 													<which>1</which>
-													<value>1</value>
+													<value>5.00000000000000000e+03</value>
+												</value>
+											</item>
+										</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>SurfaceAreaValues</name>
+								</first>
+								<second>
+									<name>SurfaceAreaValues</name>
+									<value>
+										<which>5</which>
+										<value>
+											<count>6</count>
+											<item_version>0</item_version>
+											<item>
+												<name>surf_area_0</name>
+												<value>
+													<which>1</which>
+													<value>6.07196196592937383e-05</value>
+												</value>
+											</item>
+											<item>
+												<name>surf_area_1</name>
+												<value>
+													<which>1</which>
+													<value>6.06856164829628223e-05</value>
+												</value>
+											</item>
+											<item>
+												<name>surf_area_2</name>
+												<value>
+													<which>1</which>
+													<value>6.06556395657334435e-05</value>
+												</value>
+											</item>
+											<item>
+												<name>surf_area_3</name>
+												<value>
+													<which>1</which>
+													<value>6.06556209482384264e-05</value>
+												</value>
+											</item>
+											<item>
+												<name>surf_area_4</name>
+												<value>
+													<which>1</which>
+													<value>6.06443853536688059e-05</value>
+												</value>
+											</item>
+											<item>
+												<name>surf_area_5</name>
+												<value>
+													<which>1</which>
+													<value>6.06709191425405212e-05</value>
 												</value>
 											</item>
 										</value>
@@ -1476,7 +1633,7 @@
 									<name>normal_dot_product_bound</name>
 									<value>
 										<which>1</which>
-										<value>0.69999999999999996</value>
+										<value>6.99999999999999956e-01</value>
 									</value>
 								</second>
 							</item>
@@ -1500,7 +1657,7 @@
 									<name>pointdistancebound</name>
 									<value>
 										<which>1</which>
-										<value>0.0001</value>
+										<value>1.00000000000000005e-04</value>
 									</value>
 								</second>
 							</item>
@@ -1530,7 +1687,7 @@
 					</module>
 					<state>
 						<stateMap>
-							<count>9</count>
+							<count>12</count>
 							<item_version>0</item_version>
 							<item>
 								<first>
@@ -1558,6 +1715,18 @@
 							</item>
 							<item>
 								<first>
+									<name>EdgesAvailable</name>
+								</first>
+								<second>
+									<name>EdgesAvailable</name>
+									<value>
+										<which>3</which>
+										<value>1</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
 									<name>FaceTransparency</name>
 								</first>
 								<second>
@@ -1565,6 +1734,18 @@
 									<value>
 										<which>3</which>
 										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>FacesAvailable</name>
+								</first>
+								<second>
+									<name>FacesAvailable</name>
+									<value>
+										<which>3</which>
+										<value>1</value>
 									</value>
 								</second>
 							</item>
@@ -1601,6 +1782,18 @@
 									<value>
 										<which>3</which>
 										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>NodesAvailable</name>
+								</first>
+								<second>
+									<name>NodesAvailable</name>
+									<value>
+										<which>3</which>
+										<value>1</value>
 									</value>
 								</second>
 							</item>
@@ -1645,7 +1838,7 @@
 				</second>
 			</item>
 			<item>
-				<first>ShowField:73</first>
+				<first>ShowField:75</first>
 				<second>
 					<module>
 						<package_name_>SCIRun</package_name_>
@@ -1654,8 +1847,32 @@
 					</module>
 					<state>
 						<stateMap>
-							<count>10</count>
+							<count>18</count>
 							<item_version>0</item_version>
+							<item>
+								<first>
+									<name>CylinderRadius</name>
+								</first>
+								<second>
+									<name>CylinderRadius</name>
+									<value>
+										<which>1</which>
+										<value>1.00000000000000006e-01</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>CylinderResolution</name>
+								</first>
+								<second>
+									<name>CylinderResolution</name>
+									<value>
+										<which>0</which>
+										<value>5</value>
+									</value>
+								</second>
+							</item>
 							<item>
 								<first>
 									<name>DefaultMeshColor</name>
@@ -1664,7 +1881,7 @@
 									<name>DefaultMeshColor</name>
 									<value>
 										<which>2</which>
-										<value>Color(160,160,164)</value>
+										<value>Color(0.5,0.5,0.5)</value>
 									</value>
 								</second>
 							</item>
@@ -1682,13 +1899,37 @@
 							</item>
 							<item>
 								<first>
-									<name>FaceInvertNormals</name>
+									<name>EdgeTransparencyValue</name>
 								</first>
 								<second>
-									<name>FaceInvertNormals</name>
+									<name>EdgeTransparencyValue</name>
+									<value>
+										<which>1</which>
+										<value>6.49999976158142090e-01</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>EdgesAsCylinders</name>
+								</first>
+								<second>
+									<name>EdgesAsCylinders</name>
+									<value>
+										<which>0</which>
+										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>EdgesAvailable</name>
+								</first>
+								<second>
+									<name>EdgesAvailable</name>
 									<value>
 										<which>3</which>
-										<value>0</value>
+										<value>1</value>
 									</value>
 								</second>
 							</item>
@@ -1706,10 +1947,22 @@
 							</item>
 							<item>
 								<first>
-									<name>NodeAsPoints</name>
+									<name>FaceTransparencyValue</name>
 								</first>
 								<second>
-									<name>NodeAsPoints</name>
+									<name>FaceTransparencyValue</name>
+									<value>
+										<which>1</which>
+										<value>6.49999976158142090e-01</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>FacesAvailable</name>
+								</first>
+								<second>
+									<name>FacesAvailable</name>
 									<value>
 										<which>3</which>
 										<value>1</value>
@@ -1723,7 +1976,7 @@
 								<second>
 									<name>NodeAsSpheres</name>
 									<value>
-										<which>3</which>
+										<which>0</which>
 										<value>0</value>
 									</value>
 								</second>
@@ -1737,6 +1990,30 @@
 									<value>
 										<which>3</which>
 										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>NodeTransparencyValue</name>
+								</first>
+								<second>
+									<name>NodeTransparencyValue</name>
+									<value>
+										<which>1</which>
+										<value>6.49999976158142090e-01</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>NodesAvailable</name>
+								</first>
+								<second>
+									<name>NodesAvailable</name>
+									<value>
+										<which>3</which>
+										<value>1</value>
 									</value>
 								</second>
 							</item>
@@ -1773,6 +2050,18 @@
 									<value>
 										<which>3</which>
 										<value>0</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>SphereScaleValue</name>
+								</first>
+								<second>
+									<name>SphereScaleValue</name>
+									<value>
+										<which>1</which>
+										<value>2.99999999999999989e-02</value>
 									</value>
 								</second>
 							</item>
@@ -1836,7 +2125,7 @@
 									<name>TargetError</name>
 									<value>
 										<which>1</which>
-										<value>1e-14</value>
+										<value>9.99999999999999999e-15</value>
 									</value>
 								</second>
 							</item>
@@ -1941,7 +2230,7 @@
 				</second>
 			</item>
 			<item>
-				<first>ViewScene:75</first>
+				<first>ViewScene:77</first>
 				<second>
 					<module>
 						<package_name_>SCIRun</package_name_>
@@ -1950,15 +2239,56 @@
 					</module>
 					<state>
 						<stateMap>
-							<count>0</count>
+							<count>2</count>
 							<item_version>0</item_version>
+							<item>
+								<first>
+									<name>BackgroundColor</name>
+								</first>
+								<second>
+									<name>BackgroundColor</name>
+									<value>
+										<which>2</which>
+										<value>Color(0,0,0)</value>
+									</value>
+								</second>
+							</item>
+							<item>
+								<first>
+									<name>GeometryFeedbackInfo</name>
+								</first>
+								<second>
+									<name>GeometryFeedbackInfo</name>
+									<value>
+										<which>5</which>
+										<value>
+											<count>2</count>
+											<item_version>0</item_version>
+											<item>
+												<name>x</name>
+												<value>
+													<which>0</which>
+													<value>147</value>
+												</value>
+											</item>
+											<item>
+												<name>y</name>
+												<value>
+													<which>0</which>
+													<value>447</value>
+												</value>
+											</item>
+										</value>
+									</value>
+								</second>
+							</item>
 						</stateMap>
 					</state>
 				</second>
 			</item>
 		</modules>
 		<connections class_id="13" tracking_level="0" version="0">
-			<count>77</count>
+			<count>79</count>
 			<item_version>0</item_version>
 			<item class_id="14" tracking_level="0" version="0">
 				<moduleId1_>AddKnownsToLinearSystem:58</moduleId1_>
@@ -2273,12 +2603,12 @@
 				</port2_>
 			</item>
 			<item>
-				<moduleId1_>CreateStandardColorMap:74</moduleId1_>
+				<moduleId1_>CreateStandardColorMap:76</moduleId1_>
 				<port1_>
 					<name>ColorMapObject</name>
 					<id>0</id>
 				</port1_>
-				<moduleId2_>ShowField:73</moduleId2_>
+				<moduleId2_>RescaleColorMap:1</moduleId2_>
 				<port2_>
 					<name>ColorMapObject</name>
 					<id>0</id>
@@ -2446,7 +2776,19 @@
 					<name>OutputField</name>
 					<id>0</id>
 				</port1_>
-				<moduleId2_>ShowField:73</moduleId2_>
+				<moduleId2_>RescaleColorMap:1</moduleId2_>
+				<port2_>
+					<name>Field</name>
+					<id>0</id>
+				</port2_>
+			</item>
+			<item>
+				<moduleId1_>MapFieldDataFromElemToNode:56</moduleId1_>
+				<port1_>
+					<name>OutputField</name>
+					<id>0</id>
+				</port1_>
+				<moduleId2_>ShowField:75</moduleId2_>
 				<port2_>
 					<name>Field</name>
 					<id>0</id>
@@ -2497,6 +2839,18 @@
 				<moduleId2_>SetupTDCS:48</moduleId2_>
 				<port2_>
 					<name>ELECTRODE_SPONGE_LOCATION_AVR</name>
+					<id>0</id>
+				</port2_>
+			</item>
+			<item>
+				<moduleId1_>RescaleColorMap:1</moduleId1_>
+				<port1_>
+					<name>ColorMapOutput</name>
+					<id>0</id>
+				</port1_>
+				<moduleId2_>ShowField:75</moduleId2_>
+				<port2_>
+					<name>ColorMapObject</name>
 					<id>0</id>
 				</port2_>
 			</item>
@@ -2669,12 +3023,12 @@
 				</port2_>
 			</item>
 			<item>
-				<moduleId1_>ShowField:73</moduleId1_>
+				<moduleId1_>ShowField:75</moduleId1_>
 				<port1_>
 					<name>SceneGraph</name>
 					<id>0</id>
 				</port1_>
-				<moduleId2_>ViewScene:75</moduleId2_>
+				<moduleId2_>ViewScene:77</moduleId2_>
 				<port2_>
 					<name>GeneralGeom</name>
 					<id>0</id>
@@ -2887,342 +3241,349 @@
 		</connections>
 	</networkInfo>
 	<modulePositions class_id="16" tracking_level="0" version="0">
-		<count>48</count>
+		<count>49</count>
 		<item_version>0</item_version>
 		<item class_id="17" tracking_level="0" version="0">
 			<first>AddKnownsToLinearSystem:58</first>
 			<second class_id="18" tracking_level="0" version="0">
-				<first>-2052</first>
-				<second>608</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>AlignMeshBoundingBoxes:31</first>
 			<second>
-				<first>-1064</first>
-				<second>-608</second>
+				<first>-1.06400000000000000e+03</first>
+				<second>-6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>BuildFEMatrix:57</first>
 			<second>
-				<first>-2052</first>
-				<second>456</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>BuildTDCSMatrix:59</first>
 			<second>
-				<first>-1672</first>
-				<second>760</second>
+				<first>-1.67200000000000000e+03</first>
+				<second>7.60000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:20</first>
 			<second>
-				<first>-2128</first>
-				<second>-456</second>
+				<first>-2.12800000000000000e+03</first>
+				<second>-4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:21</first>
 			<second>
-				<first>-2052</first>
-				<second>-304</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>-3.04000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:22</first>
 			<second>
-				<first>-1824</first>
-				<second>-456</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>-4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:23</first>
 			<second>
-				<first>-1748</first>
-				<second>-304</second>
+				<first>-1.74800000000000000e+03</first>
+				<second>-3.04000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:24</first>
 			<second>
-				<first>-1520</first>
-				<second>-456</second>
+				<first>-1.52000000000000000e+03</first>
+				<second>-4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:25</first>
 			<second>
-				<first>-1444</first>
-				<second>-304</second>
+				<first>-1.44400000000000000e+03</first>
+				<second>-3.04000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:26</first>
 			<second>
-				<first>-1216</first>
-				<second>-456</second>
+				<first>-1.21600000000000000e+03</first>
+				<second>-4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateFieldData:30</first>
 			<second>
-				<first>-1062</first>
-				<second>-912</second>
+				<first>-1.06200000000000000e+03</first>
+				<second>-9.12000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:18</first>
 			<second>
-				<first>-2052</first>
-				<second>-608</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>-6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:19</first>
 			<second>
-				<first>-1748</first>
-				<second>-760</second>
+				<first>-1.74800000000000000e+03</first>
+				<second>-7.60000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:20</first>
 			<second>
-				<first>-1673</first>
-				<second>-608</second>
+				<first>-1.67300000000000000e+03</first>
+				<second>-6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:21</first>
 			<second>
-				<first>-1368</first>
-				<second>-760</second>
+				<first>-1.36800000000000000e+03</first>
+				<second>-7.60000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:22</first>
 			<second>
-				<first>-1292</first>
-				<second>-608</second>
+				<first>-1.29200000000000000e+03</first>
+				<second>-6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:23</first>
 			<second>
-				<first>-988</first>
-				<second>-760</second>
+				<first>-9.88000000000000000e+02</first>
+				<second>-7.60000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CalculateSignedDistanceToField:33</first>
 			<second>
-				<first>-2128</first>
-				<second>-760</second>
+				<first>-2.12800000000000000e+03</first>
+				<second>-7.60000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>CreateLatVol:27</first>
 			<second>
-				<first>-1824</first>
-				<second>-1520</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>-1.52000000000000000e+03</second>
 			</second>
 		</item>
 		<item>
-			<first>CreateStandardColorMap:74</first>
+			<first>CreateStandardColorMap:76</first>
 			<second>
-				<first>-1292</first>
-				<second>1368</second>
+				<first>-1.44400000000000000e+03</first>
+				<second>1.59600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:15</first>
 			<second>
-				<first>-2052</first>
-				<second>-1064</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>-1.06400000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:16</first>
 			<second>
-				<first>-1824</first>
-				<second>-1216</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>-1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:17</first>
 			<second>
-				<first>-1748</first>
-				<second>-1064</second>
+				<first>-1.74800000000000000e+03</first>
+				<second>-1.06400000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:24</first>
 			<second>
-				<first>-1520</first>
-				<second>-1216</second>
+				<first>-1.52000000000000000e+03</first>
+				<second>-1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:25</first>
 			<second>
-				<first>-1444</first>
-				<second>-1064</second>
+				<first>-1.44400000000000000e+03</first>
+				<second>-1.06400000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:26</first>
 			<second>
-				<first>-1216</first>
-				<second>-1216</second>
+				<first>-1.21600000000000000e+03</first>
+				<second>-1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:35</first>
 			<second>
-				<first>-1292</first>
-				<second>152</second>
+				<first>-1.29200000000000000e+03</first>
+				<second>1.52000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:37</first>
 			<second>
-				<first>-1672</first>
-				<second>152</second>
+				<first>-1.67200000000000000e+03</first>
+				<second>1.52000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:44</first>
 			<second>
-				<first>-2128</first>
-				<second>-1216</second>
+				<first>-2.12800000000000000e+03</first>
+				<second>-1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>GetFieldBoundary:71</first>
 			<second>
-				<first>-1520</first>
-				<second>1216</second>
+				<first>-1.52000000000000000e+03</first>
+				<second>1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>InterfaceWithCleaver:27</first>
 			<second>
-				<first>-1748</first>
-				<second>-152</second>
+				<first>-1.74800000000000000e+03</first>
+				<second>-1.52000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>JoinFields:36</first>
 			<second>
-				<first>-1976</first>
-				<second>152</second>
+				<first>-1.97600000000000000e+03</first>
+				<second>1.52000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>MapFieldDataFromElemToNode:56</first>
 			<second>
-				<first>-1824</first>
-				<second>1520</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>1.52000000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>MapFieldDataFromSourceToDestination:72</first>
 			<second>
-				<first>-1774</first>
-				<second>1357</second>
+				<first>-1.77400000000000000e+03</first>
+				<second>1.35700000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>ReadField:19</first>
 			<second>
-				<first>-2134</first>
-				<second>-1489</second>
+				<first>-2.13400000000000000e+03</first>
+				<second>-1.48900000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>ReadMatrix:33</first>
 			<second>
-				<first>-1368</first>
-				<second>-76</second>
+				<first>-1.36800000000000000e+03</first>
+				<second>-7.60000000000000000e+01</second>
+			</second>
+		</item>
+		<item>
+			<first>RescaleColorMap:1</first>
+			<second>
+				<first>-1.74800000000000000e+03</first>
+				<second>1.74800000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>SelectSubMatrix:66</first>
 			<second>
-				<first>-1900</first>
-				<second>1064</second>
+				<first>-1.90000000000000000e+03</first>
+				<second>1.06400000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>SetConductivitiesToMesh:56</first>
 			<second>
-				<first>-2056</first>
-				<second>322</second>
+				<first>-2.05600000000000000e+03</first>
+				<second>3.22000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>SetFieldData:69</first>
 			<second>
-				<first>-1976</first>
-				<second>1216</second>
+				<first>-1.97600000000000000e+03</first>
+				<second>1.21600000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>SetupTDCS:48</first>
 			<second>
-				<first>-1520</first>
-				<second>304</second>
+				<first>-1.52000000000000000e+03</first>
+				<second>3.04000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>ShowField:44</first>
 			<second>
-				<first>-1368</first>
-				<second>456</second>
+				<first>-1.36800000000000000e+03</first>
+				<second>4.56000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
-			<first>ShowField:73</first>
+			<first>ShowField:75</first>
 			<second>
-				<first>-1672</first>
-				<second>1672</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>1.90000000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>SolveLinearSystem:61</first>
 			<second>
-				<first>-1824</first>
-				<second>912</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>9.12000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
 			<first>SplitFieldByDomain:26</first>
 			<second>
-				<first>-2052</first>
-				<second>-1368</second>
+				<first>-2.05200000000000000e+03</first>
+				<second>-1.36800000000000000e+03</second>
 			</second>
 		</item>
 		<item>
 			<first>SplitFieldByDomain:62</first>
 			<second>
-				<first>-1748</first>
-				<second>0</second>
+				<first>-1.74800000000000000e+03</first>
+				<second>0.00000000000000000e+00</second>
 			</second>
 		</item>
 		<item>
 			<first>ViewScene:45</first>
 			<second>
-				<first>-1368</first>
-				<second>608</second>
+				<first>-1.36800000000000000e+03</first>
+				<second>6.08000000000000000e+02</second>
 			</second>
 		</item>
 		<item>
-			<first>ViewScene:75</first>
+			<first>ViewScene:77</first>
 			<second>
-				<first>-1748</first>
-				<second>1824</second>
+				<first>-1.82400000000000000e+03</first>
+				<second>2.05200000000000000e+03</second>
 			</second>
 		</item>
 	</modulePositions>
@@ -3302,6 +3663,206 @@ SEGMENTATION</noteText>
 		<count>0</count>
 		<item_version>0</item_version>
 	</connectionNotes>
+	<moduleTags class_id="22" tracking_level="0" version="0">
+		<count>49</count>
+		<item_version>0</item_version>
+		<item class_id="23" tracking_level="0" version="0">
+			<first>AddKnownsToLinearSystem:58</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>AlignMeshBoundingBoxes:31</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>BuildFEMatrix:57</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>BuildTDCSMatrix:59</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:20</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:21</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:22</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:23</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:24</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:25</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:26</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateFieldData:30</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:18</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:19</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:20</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:21</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:22</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:23</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CalculateSignedDistanceToField:33</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CreateLatVol:27</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>CreateStandardColorMap:76</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:15</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:16</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:17</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:24</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:25</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:26</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:35</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:37</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:44</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>GetFieldBoundary:71</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>InterfaceWithCleaver:27</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>JoinFields:36</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>MapFieldDataFromElemToNode:56</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>MapFieldDataFromSourceToDestination:72</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ReadField:19</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ReadMatrix:33</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>RescaleColorMap:1</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SelectSubMatrix:66</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SetConductivitiesToMesh:56</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SetFieldData:69</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SetupTDCS:48</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ShowField:44</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ShowField:75</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SolveLinearSystem:61</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SplitFieldByDomain:26</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>SplitFieldByDomain:62</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ViewScene:45</first>
+			<second>0</second>
+		</item>
+		<item>
+			<first>ViewScene:77</first>
+			<second>0</second>
+		</item>
+	</moduleTags>
 </networkFile>
 </boost_serialization>
 
