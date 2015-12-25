@@ -1,0 +1,14 @@
+The AAL2 atlas is distributed by the university of Bordeaux and is available under http://www.gin.cnrs.fr/AAL-216 as well as in SPM12.
+The atlas is part of an in-house package developed by the Neurofunctional Imaging Group (GIN, UMR5296, Bordeaux, France), which is available to the scientific 
+community as copyright freeware under the terms of the GNU General Public License. Its original intent is anatomical labeling of data acquired through functional 
+brain mapping experiments. In BrainStimulator, we use it (in an upsampled version, 1x1x1 mm) as another anatomical atlas of Colin27 to target brain regions 
+in the context of simulating brain stimulation. 
+
+The atlas is described in the following publication:
+Rolls ET, Joliot M, Tzourio-Mazoyer N (2015) Implementation of a new parcellation of the orbitofrontal cortex in the 
+automated anatomical labeling atlas. NeuroImage 10.1016/j.neuroimage.2015.07.075.
+
+
+
+
+ 
