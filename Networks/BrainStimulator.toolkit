@@ -6,7 +6,7 @@
 		<count>3</count>
 		<item_version>0</item_version>
 		<item class_id="2" tracking_level="0" version="0">
-			<first>DBS_IN_A_BOX.srn5</first>
+			<first>DBS/DBS_IN_A_BOX.srn5</first>
 			<second class_id="3" tracking_level="0" version="6">
 				<networkInfo class_id="4" tracking_level="0" version="0">
 					<modules class_id="5" tracking_level="0" version="0">
@@ -4145,7 +4145,7 @@ p, li { white-space: pre-wrap; }
 			</second>
 		</item>
 		<item>
-			<first>TDCS_TOY_EXAMPLE.srn5</first>
+			<first>TDCS/TDCS_TOY_EXAMPLE.srn5</first>
 			<second>
 				<networkInfo>
 					<modules>
@@ -8028,7 +8028,7 @@ SEGMENTATION</noteText>
 			</second>
 		</item>
 		<item>
-			<first>TMS_TOY_EXAMPLE.srn5</first>
+			<first>TMS/TMS_TOY_EXAMPLE.srn5</first>
 			<second>
 				<networkInfo>
 					<modules>
