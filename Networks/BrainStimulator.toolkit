@@ -2598,7 +2598,7 @@ nan</value>
 								</module>
 								<state>
 									<stateMap>
-										<count>38</count>
+										<count>39</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -2872,7 +2872,7 @@ nan</value>
 												<name>ScaleBarFontSize</name>
 												<value>
 													<which>0</which>
-													<value>99</value>
+													<value>1</value>
 												</value>
 											</second>
 										</item>
@@ -2978,6 +2978,18 @@ nan</value>
 											</first>
 											<second>
 												<name>ShowScaleBar</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowViewer</name>
+											</first>
+											<second>
+												<name>ShowViewer</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -3612,204 +3624,204 @@ nan</value>
 					<item class_id="20" tracking_level="0" version="0">
 						<first>ApplyFEMCurrentSource:0</first>
 						<second class_id="21" tracking_level="0" version="0">
-							<first>4.29000000000000000e+02</first>
-							<second>5.20000000000000000e+02</second>
+							<first>9.93000000000000000e+02</first>
+							<second>6.50000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ApplyFEMVoltageSource:0</first>
 						<second>
-							<first>-2.43000000000000000e+02</first>
-							<second>5.02500000000000000e+02</second>
+							<first>3.21000000000000000e+02</first>
+							<second>6.32500000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ApplyFEMVoltageSource:1</first>
 						<second>
-							<first>1.23000000000000000e+02</first>
-							<second>3.86500000000000000e+02</second>
+							<first>6.87000000000000000e+02</first>
+							<second>5.16500000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildFEMatrix:0</first>
 						<second>
-							<first>-1.40000000000000000e+01</first>
-							<second>2.05000000000000000e+02</second>
+							<first>5.50000000000000000e+02</first>
+							<second>3.35000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildMappingMatrix:0</first>
 						<second>
-							<first>4.30000000000000000e+02</first>
-							<second>4.05000000000000000e+02</second>
+							<first>9.94000000000000000e+02</first>
+							<second>5.35000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ChooseInput:0</first>
 						<second>
-							<first>6.70000000000000000e+01</first>
-							<second>7.15000000000000000e+02</second>
+							<first>6.31000000000000000e+02</first>
+							<second>8.45000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ClipFieldByFunction:0</first>
 						<second>
-							<first>-2.12000000000000000e+02</first>
-							<second>2.07000000000000000e+02</second>
+							<first>3.52000000000000000e+02</first>
+							<second>3.37000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ConvertFieldBasis:0</first>
 						<second>
-							<first>4.18000000000000000e+02</first>
-							<second>1.99000000000000000e+02</second>
+							<first>9.82000000000000000e+02</first>
+							<second>3.29000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateMatrix:8</first>
 						<second>
-							<first>-2.11000000000000000e+02</first>
-							<second>-1.24000000000000000e+02</second>
+							<first>3.53000000000000000e+02</first>
+							<second>6.00000000000000000e+00</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateMatrix:9</first>
 						<second>
-							<first>-9.20000000000000000e+01</first>
-							<second>-4.00000000000000000e+00</second>
+							<first>4.72000000000000000e+02</first>
+							<second>1.26000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateStandardColorMap:0</first>
 						<second>
-							<first>4.50000000000000000e+01</first>
-							<second>8.04000000000000000e+02</second>
+							<first>6.09000000000000000e+02</first>
+							<second>9.34000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ExtractSimpleIsosurface:0</first>
 						<second>
-							<first>-2.88000000000000000e+02</first>
-							<second>9.18000000000000000e+02</second>
+							<first>2.76000000000000000e+02</first>
+							<second>1.04800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:18</first>
 						<second>
-							<first>1.86000000000000000e+02</first>
-							<second>4.00000000000000000e+00</second>
+							<first>7.50000000000000000e+02</first>
+							<second>1.34000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldsFromBundle:0</first>
 						<second>
-							<first>-5.20000000000000000e+02</first>
-							<second>-2.30000000000000000e+01</second>
+							<first>4.40000000000000000e+01</first>
+							<second>1.07000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>InsertVoltageSource:0</first>
 						<second>
-							<first>-2.47000000000000000e+02</first>
-							<second>3.56500000000000000e+02</second>
+							<first>3.17000000000000000e+02</first>
+							<second>4.86500000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>InsertVoltageSource:1</first>
 						<second>
-							<first>1.55000000000000000e+02</first>
-							<second>2.82500000000000000e+02</second>
+							<first>7.19000000000000000e+02</first>
+							<second>4.12500000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadBundle:1</first>
 						<second>
-							<first>-5.28000000000000000e+02</first>
-							<second>-1.24000000000000000e+02</second>
+							<first>3.60000000000000000e+01</first>
+							<second>6.00000000000000000e+00</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadField:30</first>
 						<second>
-							<first>6.10000000000000000e+01</first>
-							<second>-1.30000000000000000e+02</second>
+							<first>6.25000000000000000e+02</first>
+							<second>0.00000000000000000e+00</second>
 						</second>
 					</item>
 					<item>
 						<first>RescaleColorMap:0</first>
 						<second>
-							<first>-3.40000000000000000e+01</first>
-							<second>9.35000000000000000e+02</second>
+							<first>5.30000000000000000e+02</first>
+							<second>1.06500000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ScaleFieldMeshAndData:11</first>
 						<second>
-							<first>5.34000000000000000e+02</first>
-							<second>3.22000000000000000e+02</second>
+							<first>1.09800000000000000e+03</first>
+							<second>4.52000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldData:7</first>
 						<second>
-							<first>-2.53000000000000000e+02</first>
-							<second>8.10000000000000000e+01</second>
+							<first>3.11000000000000000e+02</first>
+							<second>2.11000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldData:8</first>
 						<second>
-							<first>-2.01000000000000000e+02</first>
-							<second>8.06000000000000000e+02</second>
+							<first>3.63000000000000000e+02</first>
+							<second>9.36000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldDataToConstantValue:0</first>
 						<second>
-							<first>1.77000000000000000e+02</first>
-							<second>1.52000000000000000e+02</second>
+							<first>7.41000000000000000e+02</first>
+							<second>2.82000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:1</first>
 						<second>
-							<first>-4.22000000000000000e+02</first>
-							<second>1.92000000000000000e+02</second>
+							<first>1.42000000000000000e+02</first>
+							<second>3.22000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:94</first>
 						<second>
-							<first>-5.64000000000000000e+02</first>
-							<second>1.93000000000000000e+02</second>
+							<first>0.00000000000000000e+00</first>
+							<second>3.23000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:95</first>
 						<second>
-							<first>-3.08000000000000000e+02</first>
-							<second>1.01900000000000000e+03</second>
+							<first>2.56000000000000000e+02</first>
+							<second>1.14900000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SolveLinearSystem:0</first>
 						<second>
-							<first>-2.29000000000000000e+02</first>
-							<second>6.17000000000000000e+02</second>
+							<first>3.35000000000000000e+02</first>
+							<second>7.47000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SolveLinearSystem:1</first>
 						<second>
-							<first>4.07000000000000000e+02</first>
-							<second>6.27000000000000000e+02</second>
+							<first>9.71000000000000000e+02</first>
+							<second>7.57000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ViewScene:6</first>
 						<second>
-							<first>-3.52000000000000000e+02</first>
-							<second>1.11850000000000000e+03</second>
+							<first>2.12000000000000000e+02</first>
+							<second>1.24850000000000000e+03</second>
 						</second>
 					</item>
 				</modulePositions>
@@ -3822,11 +3834,11 @@ nan</value>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Pick Voltage (0) or Current Controlled (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;Pick Voltage (0) or Current Controlled (1)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Pick Voltage (0) or Current Controlled (1)</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3835,11 +3847,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Clip Out NaNs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Clip Out NaNs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Clip Out NaNs</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3848,13 +3860,13 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Contact Amplitudes&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Volts or Miliamperes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;Contact Amplitudes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;Volts or Miliamperes&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Contact Amplitudes
 Volts or Miliamperes</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3863,11 +3875,11 @@ Volts or Miliamperes</noteText>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Conductivity Values&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Conductivity Values&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Conductivity Values</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3876,11 +3888,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Extract Surface of Outer Box&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Extract Surface of Outer Box&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Extract Surface of Outer Box</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3889,11 +3901,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Electrode Model&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Electrode Model&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Electrode Model</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3902,11 +3914,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Electrode Tet Vol&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;Electrode Tet Vol&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Electrode Tet Vol</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3915,11 +3927,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Convert to mA for Current Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Convert to mA for Current Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Convert to mA for Current Controlled</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3928,11 +3940,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Put Solution On Mesh&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Put Solution On Mesh&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Put Solution On Mesh</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3941,11 +3953,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Outer Box = 0V&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Outer Box = 0V&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Outer Box = 0V</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3954,11 +3966,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Contacts Visual&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Contacts Visual&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Contacts Visual</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3967,11 +3979,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Shaft Visual&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Shaft Visual&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Shaft Visual</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3980,11 +3992,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Voltage Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Voltage Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Voltage Controlled</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 					<item>
@@ -3993,11 +4005,11 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Current Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:16pt;&quot;&gt;Current Controlled&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Current Controlled</noteText>
 							<position>0</position>
-							<fontSize>8</fontSize>
+							<fontSize>13</fontSize>
 						</second>
 					</item>
 				</moduleNotes>
@@ -4745,8 +4757,23 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>4</count>
+										<count>5</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>AlphaUserPointsVector</name>
+											</first>
+											<second>
+												<name>AlphaUserPointsVector</name>
+												<value>
+													<which>5</which>
+													<value>
+														<count>0</count>
+														<item_version>0</item_version>
+													</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>ColorMapInvert</name>
@@ -5225,7 +5252,7 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>3</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -5251,6 +5278,18 @@ p, li { white-space: pre-wrap; }
 												</value>
 											</second>
 										</item>
+										<item>
+											<first>
+												<name>ScriptEnvironmentVariable</name>
+											</first>
+											<second>
+												<name>ScriptEnvironmentVariable</name>
+												<value>
+													<which>2</which>
+													<value></value>
+												</value>
+											</second>
+										</item>
 									</stateMap>
 								</state>
 							</second>
@@ -5265,7 +5304,7 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>3</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -5288,6 +5327,18 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>2</which>
 													<value>%SCIRUNDATADIR%/Data/Anatomical_Models/MickeyMouseToyModel/mickey_elc_points.mat</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScriptEnvironmentVariable</name>
+											</first>
+											<second>
+												<name>ScriptEnvironmentVariable</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -5597,7 +5648,7 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>7</count>
+										<count>8</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -5653,6 +5704,18 @@ p, li { white-space: pre-wrap; }
 															</value>
 														</item>
 													</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>GetContactSurface</name>
+											</first>
+											<second>
+												<name>GetContactSurface</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -5832,8 +5895,44 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>12</count>
+										<count>39</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>CylinderRadius</name>
+											</first>
+											<second>
+												<name>CylinderRadius</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000006e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>CylinderResolution</name>
+											</first>
+											<second>
+												<name>CylinderResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>DefaultMeshColor</name>
@@ -5848,12 +5947,48 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
 												<name>EdgeTransparency</name>
 												<value>
 													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>EdgeTransparencyValue</name>
+											</first>
+											<second>
+												<name>EdgeTransparencyValue</name>
+												<value>
+													<which>1</which>
+													<value>6.49999976158142090e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>EdgesAsCylinders</name>
+											</first>
+											<second>
+												<name>EdgesAsCylinders</name>
+												<value>
+													<which>0</which>
 													<value>0</value>
 												</value>
 											</second>
@@ -5872,6 +6007,30 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -5884,6 +6043,18 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>FaceTransparencyValue</name>
+											</first>
+											<second>
+												<name>FaceTransparencyValue</name>
+												<value>
+													<which>1</which>
+													<value>6.49999976158142090e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FacesAvailable</name>
 											</first>
 											<second>
@@ -5891,6 +6062,30 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -5932,6 +6127,18 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>NodeTransparencyValue</name>
+											</first>
+											<second>
+												<name>NodeTransparencyValue</name>
+												<value>
+													<which>1</which>
+													<value>6.49999976158142090e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>NodesAvailable</name>
 											</first>
 											<second>
@@ -5939,6 +6146,66 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -5956,6 +6223,18 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowFaces</name>
 											</first>
 											<second>
@@ -5968,10 +6247,118 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
 												<name>ShowNodes</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereScaleValue</name>
+											</first>
+											<second>
+												<name>SphereScaleValue</name>
+												<value>
+													<which>1</which>
+													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -5992,8 +6379,20 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -6032,6 +6431,18 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -6080,6 +6491,30 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -6111,6 +6546,30 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -6164,10 +6623,82 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -6188,6 +6719,18 @@ p, li { white-space: pre-wrap; }
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -6195,6 +6738,30 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>3</which>
 													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
 												</value>
 											</second>
 										</item>
@@ -6207,6 +6774,66 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -6368,8 +6995,476 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>0</count>
+										<count>39</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>Ambient</name>
+											</first>
+											<second>
+												<name>Ambient</name>
+												<value>
+													<which>1</which>
+													<value>2.00000000000000011e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackCull</name>
+											</first>
+											<second>
+												<name>BackCull</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackgroundColor</name>
+											</first>
+											<second>
+												<name>BackgroundColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Diffuse</name>
+											</first>
+											<second>
+												<name>Diffuse</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>DisplayList</name>
+											</first>
+											<second>
+												<name>DisplayList</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Emission</name>
+											</first>
+											<second>
+												<name>Emission</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldOfView</name>
+											</first>
+											<second>
+												<name>FieldOfView</name>
+												<value>
+													<which>0</which>
+													<value>20</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogColor</name>
+											</first>
+											<second>
+												<name>FogColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogEnd</name>
+											</first>
+											<second>
+												<name>FogEnd</name>
+												<value>
+													<which>1</which>
+													<value>7.09999999999999964e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogOn</name>
+											</first>
+											<second>
+												<name>FogOn</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogStart</name>
+											</first>
+											<second>
+												<name>FogStart</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightColor</name>
+											</first>
+											<second>
+												<name>HeadLightColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightOn</name>
+											</first>
+											<second>
+												<name>HeadLightOn</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1Color</name>
+											</first>
+											<second>
+												<name>Light1Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1On</name>
+											</first>
+											<second>
+												<name>Light1On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2Color</name>
+											</first>
+											<second>
+												<name>Light2Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2On</name>
+											</first>
+											<second>
+												<name>Light2On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3Color</name>
+											</first>
+											<second>
+												<name>Light3Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3On</name>
+											</first>
+											<second>
+												<name>Light3On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Lighting</name>
+											</first>
+											<second>
+												<name>Lighting</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ObjectsOnly</name>
+											</first>
+											<second>
+												<name>ObjectsOnly</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>PolygonOffset</name>
+											</first>
+											<second>
+												<name>PolygonOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarFontSize</name>
+											</first>
+											<second>
+												<name>ScaleBarFontSize</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarHeight</name>
+											</first>
+											<second>
+												<name>ScaleBarHeight</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLength</name>
+											</first>
+											<second>
+												<name>ScaleBarLength</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLineWidth</name>
+											</first>
+											<second>
+												<name>ScaleBarLineWidth</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarMultiplier</name>
+											</first>
+											<second>
+												<name>ScaleBarMultiplier</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarNumTicks</name>
+											</first>
+											<second>
+												<name>ScaleBarNumTicks</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarUnitValue</name>
+											</first>
+											<second>
+												<name>ScaleBarUnitValue</name>
+												<value>
+													<which>2</which>
+													<value>mm</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Shine</name>
+											</first>
+											<second>
+												<name>Shine</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowBBox</name>
+											</first>
+											<second>
+												<name>ShowBBox</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowScaleBar</name>
+											</first>
+											<second>
+												<name>ShowScaleBar</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowViewer</name>
+											</first>
+											<second>
+												<name>ShowViewer</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Specular</name>
+											</first>
+											<second>
+												<name>Specular</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Stereo</name>
+											</first>
+											<second>
+												<name>Stereo</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>StereoFusion</name>
+											</first>
+											<second>
+												<name>StereoFusion</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextOffset</name>
+											</first>
+											<second>
+												<name>TextOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseBGColor</name>
+											</first>
+											<second>
+												<name>UseBGColor</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseClip</name>
+											</first>
+											<second>
+												<name>UseClip</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
 									</stateMap>
 								</state>
 							</second>
@@ -6384,8 +7479,32 @@ p, li { white-space: pre-wrap; }
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>40</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>Ambient</name>
+											</first>
+											<second>
+												<name>Ambient</name>
+												<value>
+													<which>1</which>
+													<value>2.00000000000000011e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackCull</name>
+											</first>
+											<second>
+												<name>BackCull</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>BackgroundColor</name>
@@ -6395,6 +7514,102 @@ p, li { white-space: pre-wrap; }
 												<value>
 													<which>2</which>
 													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Diffuse</name>
+											</first>
+											<second>
+												<name>Diffuse</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>DisplayList</name>
+											</first>
+											<second>
+												<name>DisplayList</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Emission</name>
+											</first>
+											<second>
+												<name>Emission</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldOfView</name>
+											</first>
+											<second>
+												<name>FieldOfView</name>
+												<value>
+													<which>0</which>
+													<value>20</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogColor</name>
+											</first>
+											<second>
+												<name>FogColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogEnd</name>
+											</first>
+											<second>
+												<name>FogEnd</name>
+												<value>
+													<which>1</which>
+													<value>7.09999999999999964e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogOn</name>
+											</first>
+											<second>
+												<name>FogOn</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogStart</name>
+											</first>
+											<second>
+												<name>FogStart</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</second>
 										</item>
@@ -6424,6 +7639,342 @@ p, li { white-space: pre-wrap; }
 															</value>
 														</item>
 													</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightColor</name>
+											</first>
+											<second>
+												<name>HeadLightColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightOn</name>
+											</first>
+											<second>
+												<name>HeadLightOn</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1Color</name>
+											</first>
+											<second>
+												<name>Light1Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1On</name>
+											</first>
+											<second>
+												<name>Light1On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2Color</name>
+											</first>
+											<second>
+												<name>Light2Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2On</name>
+											</first>
+											<second>
+												<name>Light2On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3Color</name>
+											</first>
+											<second>
+												<name>Light3Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3On</name>
+											</first>
+											<second>
+												<name>Light3On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Lighting</name>
+											</first>
+											<second>
+												<name>Lighting</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ObjectsOnly</name>
+											</first>
+											<second>
+												<name>ObjectsOnly</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>PolygonOffset</name>
+											</first>
+											<second>
+												<name>PolygonOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarFontSize</name>
+											</first>
+											<second>
+												<name>ScaleBarFontSize</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarHeight</name>
+											</first>
+											<second>
+												<name>ScaleBarHeight</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLength</name>
+											</first>
+											<second>
+												<name>ScaleBarLength</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLineWidth</name>
+											</first>
+											<second>
+												<name>ScaleBarLineWidth</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarMultiplier</name>
+											</first>
+											<second>
+												<name>ScaleBarMultiplier</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarNumTicks</name>
+											</first>
+											<second>
+												<name>ScaleBarNumTicks</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarUnitValue</name>
+											</first>
+											<second>
+												<name>ScaleBarUnitValue</name>
+												<value>
+													<which>2</which>
+													<value>mm</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Shine</name>
+											</first>
+											<second>
+												<name>Shine</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowBBox</name>
+											</first>
+											<second>
+												<name>ShowBBox</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowScaleBar</name>
+											</first>
+											<second>
+												<name>ShowScaleBar</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowViewer</name>
+											</first>
+											<second>
+												<name>ShowViewer</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Specular</name>
+											</first>
+											<second>
+												<name>Specular</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Stereo</name>
+											</first>
+											<second>
+												<name>Stereo</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>StereoFusion</name>
+											</first>
+											<second>
+												<name>StereoFusion</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextOffset</name>
+											</first>
+											<second>
+												<name>TextOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseBGColor</name>
+											</first>
+											<second>
+												<name>UseBGColor</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseClip</name>
+											</first>
+											<second>
+												<name>UseClip</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
 												</value>
 											</second>
 										</item>
@@ -7391,344 +8942,344 @@ p, li { white-space: pre-wrap; }
 					<item>
 						<first>AddKnownsToLinearSystem:58</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>6.08000000000000000e+02</second>
+							<first>8.20000000000000000e+01</first>
+							<second>2.12800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>AlignMeshBoundingBoxes:31</first>
 						<second>
-							<first>-1.06400000000000000e+03</first>
-							<second>-6.08000000000000000e+02</second>
+							<first>1.07000000000000000e+03</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildFEMatrix:57</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>4.56000000000000000e+02</second>
+							<first>8.20000000000000000e+01</first>
+							<second>1.97600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildTDCSMatrix:59</first>
 						<second>
-							<first>-1.67200000000000000e+03</first>
-							<second>7.60000000000000000e+02</second>
+							<first>4.62000000000000000e+02</first>
+							<second>2.28000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:20</first>
 						<second>
-							<first>-2.12800000000000000e+03</first>
-							<second>-4.56000000000000000e+02</second>
+							<first>6.00000000000000000e+00</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:21</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>-3.04000000000000000e+02</second>
+							<first>8.20000000000000000e+01</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:22</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>-4.56000000000000000e+02</second>
+							<first>3.10000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:23</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>-3.04000000000000000e+02</second>
+							<first>3.86000000000000000e+02</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:24</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>-4.56000000000000000e+02</second>
+							<first>6.14000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:25</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>-3.04000000000000000e+02</second>
+							<first>6.90000000000000000e+02</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:26</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>-4.56000000000000000e+02</second>
+							<first>9.18000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:30</first>
 						<second>
-							<first>-1.06200000000000000e+03</first>
-							<second>-9.12000000000000000e+02</second>
+							<first>1.07200000000000000e+03</first>
+							<second>6.08000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:18</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>-6.08000000000000000e+02</second>
+							<first>8.20000000000000000e+01</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:19</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>-7.60000000000000000e+02</second>
+							<first>3.86000000000000000e+02</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:20</first>
 						<second>
-							<first>-1.67300000000000000e+03</first>
-							<second>-6.08000000000000000e+02</second>
+							<first>4.61000000000000000e+02</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:21</first>
 						<second>
-							<first>-1.36800000000000000e+03</first>
-							<second>-7.60000000000000000e+02</second>
+							<first>7.66000000000000000e+02</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:22</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>-6.08000000000000000e+02</second>
+							<first>8.42000000000000000e+02</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:23</first>
 						<second>
-							<first>-9.88000000000000000e+02</first>
-							<second>-7.60000000000000000e+02</second>
+							<first>1.14600000000000000e+03</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateSignedDistanceToField:33</first>
 						<second>
-							<first>-2.12800000000000000e+03</first>
-							<second>-7.60000000000000000e+02</second>
+							<first>6.00000000000000000e+00</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateLatVol:27</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>-1.52000000000000000e+03</second>
+							<first>3.10000000000000000e+02</first>
+							<second>0.00000000000000000e+00</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateStandardColorMap:76</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>1.59600000000000000e+03</second>
+							<first>6.90000000000000000e+02</first>
+							<second>3.11600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:15</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>-1.06400000000000000e+03</second>
+							<first>8.20000000000000000e+01</first>
+							<second>4.56000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:16</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>-1.21600000000000000e+03</second>
+							<first>3.10000000000000000e+02</first>
+							<second>3.04000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:17</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>-1.06400000000000000e+03</second>
+							<first>3.86000000000000000e+02</first>
+							<second>4.56000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:24</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>-1.21600000000000000e+03</second>
+							<first>6.14000000000000000e+02</first>
+							<second>3.04000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:25</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>-1.06400000000000000e+03</second>
+							<first>6.90000000000000000e+02</first>
+							<second>4.56000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:26</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>-1.21600000000000000e+03</second>
+							<first>9.18000000000000000e+02</first>
+							<second>3.04000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:35</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>1.52000000000000000e+02</second>
+							<first>8.42000000000000000e+02</first>
+							<second>1.67200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:37</first>
 						<second>
-							<first>-1.67200000000000000e+03</first>
-							<second>1.52000000000000000e+02</second>
+							<first>4.62000000000000000e+02</first>
+							<second>1.67200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:44</first>
 						<second>
-							<first>-2.12800000000000000e+03</first>
-							<second>-1.21600000000000000e+03</second>
+							<first>6.00000000000000000e+00</first>
+							<second>3.04000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldBoundary:71</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>1.21600000000000000e+03</second>
+							<first>6.14000000000000000e+02</first>
+							<second>2.73600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>InterfaceWithCleaver:27</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>-1.52000000000000000e+02</second>
+							<first>3.86000000000000000e+02</first>
+							<second>1.36800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>JoinFields:36</first>
 						<second>
-							<first>-1.97600000000000000e+03</first>
-							<second>1.52000000000000000e+02</second>
+							<first>1.58000000000000000e+02</first>
+							<second>1.67200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromElemToNode:56</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>1.52000000000000000e+03</second>
+							<first>3.10000000000000000e+02</first>
+							<second>3.04000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromSourceToDestination:72</first>
 						<second>
-							<first>-1.77400000000000000e+03</first>
-							<second>1.35700000000000000e+03</second>
+							<first>3.60000000000000000e+02</first>
+							<second>2.87700000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadField:19</first>
 						<second>
-							<first>-2.13400000000000000e+03</first>
-							<second>-1.48900000000000000e+03</second>
+							<first>0.00000000000000000e+00</first>
+							<second>3.10000000000000000e+01</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadMatrix:33</first>
 						<second>
-							<first>-1.36800000000000000e+03</first>
-							<second>-7.60000000000000000e+01</second>
+							<first>7.66000000000000000e+02</first>
+							<second>1.44400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>RescaleColorMap:1</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>1.74800000000000000e+03</second>
+							<first>3.86000000000000000e+02</first>
+							<second>3.26800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SelectSubMatrix:66</first>
 						<second>
-							<first>-1.90000000000000000e+03</first>
-							<second>1.06400000000000000e+03</second>
+							<first>2.34000000000000000e+02</first>
+							<second>2.58400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SetConductivitiesToMesh:56</first>
 						<second>
-							<first>-2.05600000000000000e+03</first>
-							<second>3.22000000000000000e+02</second>
+							<first>7.80000000000000000e+01</first>
+							<second>1.84200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldData:69</first>
 						<second>
-							<first>-1.97600000000000000e+03</first>
-							<second>1.21600000000000000e+03</second>
+							<first>1.58000000000000000e+02</first>
+							<second>2.73600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SetupTDCS:48</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>3.04000000000000000e+02</second>
+							<first>6.14000000000000000e+02</first>
+							<second>1.82400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:44</first>
 						<second>
-							<first>-1.36800000000000000e+03</first>
-							<second>4.56000000000000000e+02</second>
+							<first>7.66000000000000000e+02</first>
+							<second>1.97600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:75</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>1.90000000000000000e+03</second>
+							<first>3.10000000000000000e+02</first>
+							<second>3.42000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SolveLinearSystem:61</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>9.12000000000000000e+02</second>
+							<first>3.10000000000000000e+02</first>
+							<second>2.43200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SplitFieldByDomain:26</first>
 						<second>
-							<first>-2.05200000000000000e+03</first>
-							<second>-1.36800000000000000e+03</second>
+							<first>8.20000000000000000e+01</first>
+							<second>1.52000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SplitFieldByDomain:62</first>
 						<second>
-							<first>-1.74800000000000000e+03</first>
-							<second>0.00000000000000000e+00</second>
+							<first>3.86000000000000000e+02</first>
+							<second>1.52000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ViewScene:45</first>
 						<second>
-							<first>-1.36800000000000000e+03</first>
-							<second>6.08000000000000000e+02</second>
+							<first>7.66000000000000000e+02</first>
+							<second>2.12800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ViewScene:77</first>
 						<second>
-							<first>-1.82400000000000000e+03</first>
-							<second>2.05200000000000000e+03</second>
+							<first>3.10000000000000000e+02</first>
+							<second>3.57200000000000000e+03</second>
 						</second>
 					</item>
 				</modulePositions>
@@ -7741,8 +9292,8 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;CREATE INDICATOR&lt;br /&gt;FUNCTION LATTICE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;CREATE INDICATOR&lt;br /&gt;FUNCTION LATTICE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>CREATE INDICATOR
 FUNCTION LATTICE</noteText>
 							<position>3</position>
@@ -7755,8 +9306,8 @@ FUNCTION LATTICE</noteText>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;ELECTRODES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;ELECTRODES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>ELECTRODES</noteText>
 							<position>3</position>
 							<fontSize>13</fontSize>
@@ -7768,8 +9319,8 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;MICKEY SCALP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;MICKEY SCALP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>MICKEY SCALP</noteText>
 							<position>3</position>
 							<fontSize>13</fontSize>
@@ -7781,8 +9332,8 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;CLEAVER MESH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;CLEAVER MESH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>CLEAVER MESH</noteText>
 							<position>3</position>
 							<fontSize>13</fontSize>
@@ -7794,9 +9345,9 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;LOAD MODEL&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;SEGMENTATION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;LOAD MODEL&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;SEGMENTATION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>LOAD MODEL
 SEGMENTATION</noteText>
 							<position>3</position>
@@ -8348,8 +9899,23 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>4</count>
+										<count>5</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>AlphaUserPointsVector</name>
+											</first>
+											<second>
+												<name>AlphaUserPointsVector</name>
+												<value>
+													<which>5</which>
+													<value>
+														<count>0</count>
+														<item_version>0</item_version>
+													</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>ColorMapInvert</name>
@@ -8468,8 +10034,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>1</count>
+										<count>2</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>FunctionString</name>
+											</first>
+											<second>
+												<name>FunctionString</name>
+												<value>
+													<which>2</which>
+													<value>x+y</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>Operator</name>
@@ -8496,8 +10074,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>3</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>FunctionString</name>
+											</first>
+											<second>
+												<name>FunctionString</name>
+												<value>
+													<which>2</which>
+													<value>x+10</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>Operator</name>
@@ -8536,7 +10126,7 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>1</count>
+										<count>2</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -8547,6 +10137,21 @@ SEGMENTATION</noteText>
 												<value>
 													<which>2</which>
 													<value></value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>StatisticsTableValues</name>
+											</first>
+											<second>
+												<name>StatisticsTableValues</name>
+												<value>
+													<which>5</which>
+													<value>
+														<count>0</count>
+														<item_version>0</item_version>
+													</value>
 												</value>
 											</second>
 										</item>
@@ -9088,7 +10693,7 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>3</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -9114,6 +10719,18 @@ SEGMENTATION</noteText>
 												</value>
 											</second>
 										</item>
+										<item>
+											<first>
+												<name>ScriptEnvironmentVariable</name>
+											</first>
+											<second>
+												<name>ScriptEnvironmentVariable</name>
+												<value>
+													<which>2</which>
+													<value></value>
+												</value>
+											</second>
+										</item>
 									</stateMap>
 								</state>
 							</second>
@@ -9128,7 +10745,7 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>3</count>
 										<item_version>0</item_version>
 										<item>
 											<first>
@@ -9151,6 +10768,18 @@ SEGMENTATION</noteText>
 												<value>
 													<which>2</which>
 													<value>%SCIRUNDATADIR%/Data/Anatomical_Models/MickeyMouseToyModel/mickey_mesh.fld</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScriptEnvironmentVariable</name>
+											</first>
+											<second>
+												<name>ScriptEnvironmentVariable</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -9400,8 +11029,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -9440,6 +11081,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -9488,6 +11141,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -9519,6 +11196,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -9572,10 +11273,82 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -9596,6 +11369,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -9603,6 +11388,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
 												</value>
 											</second>
 										</item>
@@ -9615,6 +11424,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -9632,8 +11501,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -9672,6 +11553,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -9720,6 +11613,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -9751,6 +11668,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -9804,6 +11745,66 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
@@ -9816,10 +11817,34 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowFaces</name>
 											</first>
 											<second>
 												<name>ShowFaces</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -9835,6 +11860,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
 												</value>
 											</second>
 										</item>
@@ -9847,6 +11896,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -9864,8 +11973,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -9899,6 +12020,18 @@ SEGMENTATION</noteText>
 												<value>
 													<which>2</which>
 													<value>Color(0.5,0.5,0.5)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
 												</value>
 											</second>
 										</item>
@@ -9947,6 +12080,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -9988,6 +12145,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>NodeAsSpheres</name>
 											</first>
 											<second>
@@ -10036,10 +12217,82 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -10060,6 +12313,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -10072,6 +12337,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>SphereScaleValue</name>
 											</first>
 											<second>
@@ -10079,6 +12368,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -10096,8 +12445,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -10136,6 +12497,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -10184,6 +12557,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -10215,6 +12612,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -10268,10 +12689,82 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -10292,6 +12785,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -10299,6 +12804,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
 												</value>
 											</second>
 										</item>
@@ -10311,6 +12840,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -10328,8 +12917,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -10368,6 +12969,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -10411,6 +13024,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -10452,6 +13089,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>NodeAsSpheres</name>
 											</first>
 											<second>
@@ -10500,10 +13161,82 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -10524,6 +13257,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -10536,6 +13281,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>SphereScaleValue</name>
 											</first>
 											<second>
@@ -10543,6 +13312,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -10560,8 +13389,20 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>18</count>
+										<count>38</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>CullBackfacingText</name>
+											</first>
+											<second>
+												<name>CullBackfacingText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>CylinderRadius</name>
@@ -10600,6 +13441,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>DefaultTextColor</name>
+											</first>
+											<second>
+												<name>DefaultTextColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(1,1,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>EdgeTransparency</name>
 											</first>
 											<second>
@@ -10648,6 +13501,30 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>EdgesColoring</name>
+											</first>
+											<second>
+												<name>EdgesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FaceInvertNormals</name>
+											</first>
+											<second>
+												<name>FaceInvertNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>FaceTransparency</name>
 											</first>
 											<second>
@@ -10679,6 +13556,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FacesColoring</name>
+											</first>
+											<second>
+												<name>FacesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldName</name>
+											</first>
+											<second>
+												<name>FieldName</name>
+												<value>
+													<which>2</which>
+													<value></value>
 												</value>
 											</second>
 										</item>
@@ -10732,10 +13633,82 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>NodesColoring</name>
+											</first>
+											<second>
+												<name>NodesColoring</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>RenderAsLocation</name>
+											</first>
+											<second>
+												<name>RenderAsLocation</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowCellIndices</name>
+											</first>
+											<second>
+												<name>ShowCellIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowDataValues</name>
+											</first>
+											<second>
+												<name>ShowDataValues</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowEdgeIndices</name>
+											</first>
+											<second>
+												<name>ShowEdgeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowEdges</name>
 											</first>
 											<second>
 												<name>ShowEdges</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowFaceIndices</name>
+											</first>
+											<second>
+												<name>ShowFaceIndices</name>
 												<value>
 													<which>3</which>
 													<value>0</value>
@@ -10756,6 +13729,18 @@ SEGMENTATION</noteText>
 										</item>
 										<item>
 											<first>
+												<name>ShowNodeIndices</name>
+											</first>
+											<second>
+												<name>ShowNodeIndices</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
 												<name>ShowNodes</name>
 											</first>
 											<second>
@@ -10763,6 +13748,30 @@ SEGMENTATION</noteText>
 												<value>
 													<which>3</which>
 													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowText</name>
+											</first>
+											<second>
+												<name>ShowText</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>SphereResolution</name>
+											</first>
+											<second>
+												<name>SphereResolution</name>
+												<value>
+													<which>0</which>
+													<value>5</value>
 												</value>
 											</second>
 										</item>
@@ -10775,6 +13784,66 @@ SEGMENTATION</noteText>
 												<value>
 													<which>1</which>
 													<value>2.99999999999999989e-02</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextAlwaysVisible</name>
+											</first>
+											<second>
+												<name>TextAlwaysVisible</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextColoring</name>
+											</first>
+											<second>
+												<name>TextColoring</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextPrecision</name>
+											</first>
+											<second>
+												<name>TextPrecision</name>
+												<value>
+													<which>0</which>
+													<value>3</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextSize</name>
+											</first>
+											<second>
+												<name>TextSize</name>
+												<value>
+													<which>0</which>
+													<value>8</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseFaceNormals</name>
+											</first>
+											<second>
+												<name>UseFaceNormals</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
 												</value>
 											</second>
 										</item>
@@ -10912,8 +13981,140 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>1</count>
+										<count>40</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>Ambient</name>
+											</first>
+											<second>
+												<name>Ambient</name>
+												<value>
+													<which>1</which>
+													<value>2.00000000000000011e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackCull</name>
+											</first>
+											<second>
+												<name>BackCull</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackgroundColor</name>
+											</first>
+											<second>
+												<name>BackgroundColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Diffuse</name>
+											</first>
+											<second>
+												<name>Diffuse</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>DisplayList</name>
+											</first>
+											<second>
+												<name>DisplayList</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Emission</name>
+											</first>
+											<second>
+												<name>Emission</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldOfView</name>
+											</first>
+											<second>
+												<name>FieldOfView</name>
+												<value>
+													<which>0</which>
+													<value>20</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogColor</name>
+											</first>
+											<second>
+												<name>FogColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogEnd</name>
+											</first>
+											<second>
+												<name>FogEnd</name>
+												<value>
+													<which>1</which>
+													<value>7.09999999999999964e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogOn</name>
+											</first>
+											<second>
+												<name>FogOn</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogStart</name>
+											</first>
+											<second>
+												<name>FogStart</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>GeometryFeedbackInfo</name>
@@ -10943,6 +14144,342 @@ SEGMENTATION</noteText>
 												</value>
 											</second>
 										</item>
+										<item>
+											<first>
+												<name>HeadLightColor</name>
+											</first>
+											<second>
+												<name>HeadLightColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightOn</name>
+											</first>
+											<second>
+												<name>HeadLightOn</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1Color</name>
+											</first>
+											<second>
+												<name>Light1Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1On</name>
+											</first>
+											<second>
+												<name>Light1On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2Color</name>
+											</first>
+											<second>
+												<name>Light2Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2On</name>
+											</first>
+											<second>
+												<name>Light2On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3Color</name>
+											</first>
+											<second>
+												<name>Light3Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3On</name>
+											</first>
+											<second>
+												<name>Light3On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Lighting</name>
+											</first>
+											<second>
+												<name>Lighting</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ObjectsOnly</name>
+											</first>
+											<second>
+												<name>ObjectsOnly</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>PolygonOffset</name>
+											</first>
+											<second>
+												<name>PolygonOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarFontSize</name>
+											</first>
+											<second>
+												<name>ScaleBarFontSize</name>
+												<value>
+													<which>0</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarHeight</name>
+											</first>
+											<second>
+												<name>ScaleBarHeight</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLength</name>
+											</first>
+											<second>
+												<name>ScaleBarLength</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLineWidth</name>
+											</first>
+											<second>
+												<name>ScaleBarLineWidth</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarMultiplier</name>
+											</first>
+											<second>
+												<name>ScaleBarMultiplier</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarNumTicks</name>
+											</first>
+											<second>
+												<name>ScaleBarNumTicks</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarUnitValue</name>
+											</first>
+											<second>
+												<name>ScaleBarUnitValue</name>
+												<value>
+													<which>2</which>
+													<value>mm</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Shine</name>
+											</first>
+											<second>
+												<name>Shine</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowBBox</name>
+											</first>
+											<second>
+												<name>ShowBBox</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowScaleBar</name>
+											</first>
+											<second>
+												<name>ShowScaleBar</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowViewer</name>
+											</first>
+											<second>
+												<name>ShowViewer</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Specular</name>
+											</first>
+											<second>
+												<name>Specular</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Stereo</name>
+											</first>
+											<second>
+												<name>Stereo</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>StereoFusion</name>
+											</first>
+											<second>
+												<name>StereoFusion</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextOffset</name>
+											</first>
+											<second>
+												<name>TextOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseBGColor</name>
+											</first>
+											<second>
+												<name>UseBGColor</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseClip</name>
+											</first>
+											<second>
+												<name>UseClip</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
 									</stateMap>
 								</state>
 							</second>
@@ -10957,8 +14494,32 @@ SEGMENTATION</noteText>
 								</module>
 								<state>
 									<stateMap>
-										<count>2</count>
+										<count>40</count>
 										<item_version>0</item_version>
+										<item>
+											<first>
+												<name>Ambient</name>
+											</first>
+											<second>
+												<name>Ambient</name>
+												<value>
+													<which>1</which>
+													<value>2.00000000000000011e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>BackCull</name>
+											</first>
+											<second>
+												<name>BackCull</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
 										<item>
 											<first>
 												<name>BackgroundColor</name>
@@ -10968,6 +14529,102 @@ SEGMENTATION</noteText>
 												<value>
 													<which>2</which>
 													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Diffuse</name>
+											</first>
+											<second>
+												<name>Diffuse</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>DisplayList</name>
+											</first>
+											<second>
+												<name>DisplayList</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Emission</name>
+											</first>
+											<second>
+												<name>Emission</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FieldOfView</name>
+											</first>
+											<second>
+												<name>FieldOfView</name>
+												<value>
+													<which>0</which>
+													<value>20</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogColor</name>
+											</first>
+											<second>
+												<name>FogColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,1)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogEnd</name>
+											</first>
+											<second>
+												<name>FogEnd</name>
+												<value>
+													<which>1</which>
+													<value>7.09999999999999964e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogOn</name>
+											</first>
+											<second>
+												<name>FogOn</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>FogStart</name>
+											</first>
+											<second>
+												<name>FogStart</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
 												</value>
 											</second>
 										</item>
@@ -10997,6 +14654,342 @@ SEGMENTATION</noteText>
 															</value>
 														</item>
 													</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightColor</name>
+											</first>
+											<second>
+												<name>HeadLightColor</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>HeadLightOn</name>
+											</first>
+											<second>
+												<name>HeadLightOn</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1Color</name>
+											</first>
+											<second>
+												<name>Light1Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light1On</name>
+											</first>
+											<second>
+												<name>Light1On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2Color</name>
+											</first>
+											<second>
+												<name>Light2Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light2On</name>
+											</first>
+											<second>
+												<name>Light2On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3Color</name>
+											</first>
+											<second>
+												<name>Light3Color</name>
+												<value>
+													<which>2</which>
+													<value>Color(0,0,0)</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Light3On</name>
+											</first>
+											<second>
+												<name>Light3On</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Lighting</name>
+											</first>
+											<second>
+												<name>Lighting</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ObjectsOnly</name>
+											</first>
+											<second>
+												<name>ObjectsOnly</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>PolygonOffset</name>
+											</first>
+											<second>
+												<name>PolygonOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarFontSize</name>
+											</first>
+											<second>
+												<name>ScaleBarFontSize</name>
+												<value>
+													<which>0</which>
+													<value>99</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarHeight</name>
+											</first>
+											<second>
+												<name>ScaleBarHeight</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLength</name>
+											</first>
+											<second>
+												<name>ScaleBarLength</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarLineWidth</name>
+											</first>
+											<second>
+												<name>ScaleBarLineWidth</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarMultiplier</name>
+											</first>
+											<second>
+												<name>ScaleBarMultiplier</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarNumTicks</name>
+											</first>
+											<second>
+												<name>ScaleBarNumTicks</name>
+												<value>
+													<which>0</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ScaleBarUnitValue</name>
+											</first>
+											<second>
+												<name>ScaleBarUnitValue</name>
+												<value>
+													<which>2</which>
+													<value>mm</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Shine</name>
+											</first>
+											<second>
+												<name>Shine</name>
+												<value>
+													<which>1</which>
+													<value>1.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowBBox</name>
+											</first>
+											<second>
+												<name>ShowBBox</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowScaleBar</name>
+											</first>
+											<second>
+												<name>ShowScaleBar</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>ShowViewer</name>
+											</first>
+											<second>
+												<name>ShowViewer</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Specular</name>
+											</first>
+											<second>
+												<name>Specular</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>Stereo</name>
+											</first>
+											<second>
+												<name>Stereo</name>
+												<value>
+													<which>3</which>
+													<value>0</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>StereoFusion</name>
+											</first>
+											<second>
+												<name>StereoFusion</name>
+												<value>
+													<which>1</which>
+													<value>4.00000000000000022e-01</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>TextOffset</name>
+											</first>
+											<second>
+												<name>TextOffset</name>
+												<value>
+													<which>1</which>
+													<value>0.00000000000000000e+00</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseBGColor</name>
+											</first>
+											<second>
+												<name>UseBGColor</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
+												</value>
+											</second>
+										</item>
+										<item>
+											<first>
+												<name>UseClip</name>
+											</first>
+											<second>
+												<name>UseClip</name>
+												<value>
+													<which>3</which>
+													<value>1</value>
 												</value>
 											</second>
 										</item>
@@ -11748,309 +15741,309 @@ SEGMENTATION</noteText>
 					<item>
 						<first>AddKnownsToLinearSystem:13</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>2.28000000000000000e+02</second>
+							<first>1.53000000000000000e+02</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildFEMatrix:6</first>
 						<second>
-							<first>-1.59600000000000000e+03</first>
-							<second>-2.28000000000000000e+02</second>
+							<first>1.00000000000000000e+00</first>
+							<second>4.56000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>BuildFEVolRHS:8</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>-7.60000000000000000e+01</second>
+							<first>3.81000000000000000e+02</first>
+							<second>6.08000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:140</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>1.90000000000000000e+03</second>
+							<first>3.81000000000000000e+02</first>
+							<second>2.58400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:15</first>
 						<second>
-							<first>-8.36000000000000000e+02</first>
-							<second>-7.60000000000000000e+01</second>
+							<first>7.61000000000000000e+02</first>
+							<second>6.08000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:28</first>
 						<second>
-							<first>-6.84000000000000000e+02</first>
-							<second>5.32000000000000000e+02</second>
+							<first>9.13000000000000000e+02</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:3</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>-5.32000000000000000e+02</second>
+							<first>3.05000000000000000e+02</first>
+							<second>1.52000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:4</first>
 						<second>
-							<first>-8.94000000000000000e+02</first>
-							<second>-5.01000000000000000e+02</second>
+							<first>7.03000000000000000e+02</first>
+							<second>1.83000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateFieldData:40</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>1.44400000000000000e+03</second>
+							<first>7.70000000000000000e+01</first>
+							<second>2.12800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CalculateGradients:15</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>6.84000000000000000e+02</second>
+							<first>7.70000000000000000e+01</first>
+							<second>1.36800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateStandardColorMap:78</first>
 						<second>
-							<first>-1.59600000000000000e+03</first>
-							<second>1.59600000000000000e+03</second>
+							<first>1.00000000000000000e+00</first>
+							<second>2.28000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateString:136</first>
 						<second>
-							<first>-6.84000000000000000e+02</first>
-							<second>1.74800000000000000e+03</second>
+							<first>9.13000000000000000e+02</first>
+							<second>2.43200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>CreateString:138</first>
 						<second>
-							<first>-9.88000000000000000e+02</first>
-							<second>1.74800000000000000e+03</second>
+							<first>6.09000000000000000e+02</first>
+							<second>2.43200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>EvaluateLinearAlgebraBinary:18</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>1.14000000000000000e+03</second>
+							<first>3.05000000000000000e+02</first>
+							<second>1.82400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>EvaluateLinearAlgebraUnary:11</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>7.60000000000000000e+01</second>
+							<first>3.81000000000000000e+02</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GenerateROIStatistics:134</first>
 						<second>
-							<first>-1.06400000000000000e+03</first>
-							<second>2.20400000000000000e+03</second>
+							<first>5.33000000000000000e+02</first>
+							<second>2.88800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetDomainBoundary:21</first>
 						<second>
-							<first>-1.14000000000000000e+03</first>
-							<second>3.80000000000000000e+02</second>
+							<first>4.57000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetDomainBoundary:26</first>
 						<second>
-							<first>-6.84000000000000000e+02</first>
-							<second>6.84000000000000000e+02</second>
+							<first>9.13000000000000000e+02</first>
+							<second>1.36800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldData:11</first>
 						<second>
-							<first>-8.36000000000000000e+02</first>
-							<second>7.60000000000000000e+01</second>
+							<first>7.61000000000000000e+02</first>
+							<second>7.60000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldData:17</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>9.88000000000000000e+02</second>
+							<first>7.70000000000000000e+01</first>
+							<second>1.67200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>GetFieldData:19</first>
 						<second>
-							<first>-1.14000000000000000e+03</first>
-							<second>9.88000000000000000e+02</second>
+							<first>4.57000000000000000e+02</first>
+							<second>1.67200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>JoinFields:24</first>
 						<second>
-							<first>-6.84000000000000000e+02</first>
-							<second>3.80000000000000000e+02</second>
+							<first>9.13000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromElemToNode:16</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>8.36000000000000000e+02</second>
+							<first>7.70000000000000000e+01</first>
+							<second>1.52000000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromElemToNode:38</first>
 						<second>
-							<first>-1.14000000000000000e+03</first>
-							<second>1.29200000000000000e+03</second>
+							<first>4.57000000000000000e+02</first>
+							<second>1.97600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromNodeToElem:135</first>
 						<second>
-							<first>-9.88000000000000000e+02</first>
-							<second>2.05200000000000000e+03</second>
+							<first>6.09000000000000000e+02</first>
+							<second>2.73600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromNodeToElem:7</first>
 						<second>
-							<first>-1.21600000000000000e+03</first>
-							<second>-2.28000000000000000e+02</second>
+							<first>3.81000000000000000e+02</first>
+							<second>4.56000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>MapFieldDataFromSourceToDestination:31</first>
 						<second>
-							<first>-1.14000000000000000e+03</first>
-							<second>1.44400000000000000e+03</second>
+							<first>4.57000000000000000e+02</first>
+							<second>2.12800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadField:0</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>-6.84000000000000000e+02</second>
+							<first>3.05000000000000000e+02</first>
+							<second>0.00000000000000000e+00</second>
 						</second>
 					</item>
 					<item>
 						<first>ReadField:1</first>
 						<second>
-							<first>-9.52000000000000000e+02</first>
-							<second>-6.41000000000000000e+02</second>
+							<first>6.45000000000000000e+02</first>
+							<second>4.30000000000000000e+01</second>
 						</second>
 					</item>
 					<item>
 						<first>RescaleColorMap:2</first>
 						<second>
-							<first>-1.29200000000000000e+03</first>
-							<second>1.74800000000000000e+03</second>
+							<first>3.05000000000000000e+02</first>
+							<second>2.43200000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SetConductivitiesToMesh:5</first>
 						<second>
-							<first>-1.50100000000000000e+03</first>
-							<second>-3.68000000000000000e+02</second>
+							<first>9.60000000000000000e+01</first>
+							<second>3.16000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldData:14</first>
 						<second>
-							<first>-1.52000000000000000e+03</first>
-							<second>5.32000000000000000e+02</second>
+							<first>7.70000000000000000e+01</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SetFieldData:33</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>1.29200000000000000e+03</second>
+							<first>1.53000000000000000e+02</first>
+							<second>1.97600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:82</first>
 						<second>
-							<first>-1.59700000000000000e+03</first>
-							<second>1.90000000000000000e+03</second>
+							<first>0.00000000000000000e+00</first>
+							<second>2.58400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:83</first>
 						<second>
-							<first>-4.56000000000000000e+02</first>
-							<second>1.06400000000000000e+03</second>
+							<first>1.14100000000000000e+03</first>
+							<second>1.74800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:91</first>
 						<second>
-							<first>-6.08000000000000000e+02</first>
-							<second>9.12000000000000000e+02</second>
+							<first>9.89000000000000000e+02</first>
+							<second>1.59600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:92</first>
 						<second>
-							<first>-7.60000000000000000e+02</first>
-							<second>7.60000000000000000e+02</second>
+							<first>8.37000000000000000e+02</first>
+							<second>1.44400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:93</first>
 						<second>
-							<first>-9.88000000000000000e+02</first>
-							<second>5.32000000000000000e+02</second>
+							<first>6.09000000000000000e+02</first>
+							<second>1.21600000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ShowField:94</first>
 						<second>
-							<first>-1.06400000000000000e+03</first>
-							<second>6.84000000000000000e+02</second>
+							<first>5.33000000000000000e+02</first>
+							<second>1.36800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SimulateForwardMagneticField:5</first>
 						<second>
-							<first>-1.12200000000000000e+03</first>
-							<second>-3.49000000000000000e+02</second>
+							<first>4.75000000000000000e+02</first>
+							<second>3.35000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>SolveLinearSystem:27</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>3.80000000000000000e+02</second>
+							<first>1.53000000000000000e+02</first>
+							<second>1.06400000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>SplitFieldByDomain:20</first>
 						<second>
-							<first>-9.88000000000000000e+02</first>
-							<second>2.28000000000000000e+02</second>
+							<first>6.09000000000000000e+02</first>
+							<second>9.12000000000000000e+02</second>
 						</second>
 					</item>
 					<item>
 						<first>ViewScene:36</first>
 						<second>
-							<first>-1.44400000000000000e+03</first>
-							<second>2.20400000000000000e+03</second>
+							<first>1.53000000000000000e+02</first>
+							<second>2.88800000000000000e+03</second>
 						</second>
 					</item>
 					<item>
 						<first>ViewScene:82</first>
 						<second>
-							<first>-8.36000000000000000e+02</first>
-							<second>1.14000000000000000e+03</second>
+							<first>7.61000000000000000e+02</first>
+							<second>1.82400000000000000e+03</second>
 						</second>
 					</item>
 				</modulePositions>
@@ -12063,8 +16056,8 @@ SEGMENTATION</noteText>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Arbitrary Scaling for GenerateROIStatusticsOutput&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;Arbitrary Scaling for GenerateROIStatusticsOutput&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>Arbitrary Scaling for GenerateROIStatusticsOutput</noteText>
 							<position>3</position>
 							<fontSize>13</fontSize>
@@ -12076,9 +16069,9 @@ p, li { white-space: pre-wrap; }
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;LOAD MICKEY&apos;S&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;TMS COIL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;LOAD MICKEY&apos;S&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;TMS COIL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>LOAD MICKEY&apos;S
 TMS COIL</noteText>
 							<position>3</position>
@@ -12091,9 +16084,9 @@ TMS COIL</noteText>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;LOAD MICKEY MOUSE&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;TET MESH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;LOAD MICKEY MOUSE&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;TET MESH&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>LOAD MICKEY MOUSE
 TET MESH</noteText>
 							<position>3</position>
@@ -12106,9 +16099,9 @@ TET MESH</noteText>
 							<noteHTML>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;MICKEY MOUSE&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;MODEL VIEW&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;.SF NS Text&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;MICKEY MOUSE&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Lucida Grande&apos;; font-size:16pt;&quot;&gt;MODEL VIEW&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</noteHTML>
 							<noteText>MICKEY MOUSE
 MODEL VIEW</noteText>
 							<position>3</position>
